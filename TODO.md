@@ -36,3 +36,6 @@ self-hosted workflows issues and errors:
 - Thanks to @xiaofei-ya's Note.md note file in the root folder of the repo, without that shit, my dev speed will be 10 times slower along with thousands of tabs on stackoverflow in my browser
 - i18n language localizations and etc (Simplified Chinese, Traditional Chinese, English, Japanese), the program itself with Chinese commenting is fine, but the web UI
 - Rewrite web UI, publish a new release without my own comments/links on, based on the original proxypool UI, rewrite using materialize framework (dark theme switch included)
+- Also unifies the badge/shield styles based on shields.io, add extra shields
+- Add repo star sparklines graphs in regard to https://github.com/antonmedv/spark
+- Redesign icon for proxypool
