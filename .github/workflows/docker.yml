@@ -20,6 +20,6 @@ jobs:
         with:
           username: andatoshiki
           password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
+          registry: ghcr.io
           repository: andatoshiki/toshiki-proxypool
           tag_with_ref: true
