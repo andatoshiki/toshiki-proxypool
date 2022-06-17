@@ -39,4 +39,5 @@ self-hosted workflows issues and errors:
 - Also unifies the badge/shield styles based on shields.io, add extra shields
 - Add repo star sparklines graphs in regard to https://github.com/antonmedv/spark
 - Redesign icon for proxypool
+- Configure markdown, javascript, go... lint workflow action, currently unknown on how to work out
 - **Get some sleep you idiot**
