@@ -31,7 +31,7 @@ require (
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/robertkrimen/otto v0.0.0-20200922221731-ef014fd054ac
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.8.1
 	github.com/temoto/robotstxt v1.1.1 // indirect
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
 	golang.org/x/sys v0.0.0-20220615213510-4f61da869c0c // indirect
