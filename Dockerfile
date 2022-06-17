@@ -1,17 +1,17 @@
 FROM golang:alpine as builder
 
 RUN apk add --no-cache make git
-WORKDIR /proxypool-src
-COPY . /proxypool-src
+WORKDIR /toshiki-proxypool-src
+COPY . /toshiki-proxypool-src
 RUN go mod download && \
     make docker && \
-    mv ./bin/proxypool-docker /proxypool
+    mv ./bin/toshiki-proxypool-docker /toshiki-proxypool
 
 FROM alpine:latest
 
 RUN apk add --no-cache ca-certificates tzdata
-WORKDIR /proxypool-src
-COPY ./assets /proxypool-src/assets
-COPY ./config /proxypool-src/config
-COPY --from=builder /proxypool /proxypool-src/
-ENTRYPOINT ["/proxypool-src/proxypool", "-d"]
+WORKDIR /toshiki-proxypool-src
+COPY ./assets /toshiki-proxypool-src/assets
+COPY ./config /toshiki-proxypool-src/config
+COPY --from=builder /toshiki-proxypool /toshiki-proxypool-src/
+ENTRYPOINT ["/toshiki-proxypool-src/toshiki-proxypool", "-d"]
