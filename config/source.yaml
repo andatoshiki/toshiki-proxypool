@@ -1,0 +1,462 @@
+# 模糊抓取订阅链接
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+    
+ # 模糊抓取订阅链接1
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/adskd/ffasdc1/main/asub.list
+
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+
+# 订阅链接1
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/proxy.txt
+
+# 订阅链接2
+- type: subscribe
+  options:
+    url: https://jiang.netlify.app
+
+# 订阅链接3
+- type: subscribe
+  options:
+    url: https://telegram-kkv2r-d320.netlify.app
+
+# 订阅链接4
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/freefq/free/master/ssr
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
+
+# 订阅链接5
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/302.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/303.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/304.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/305.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/306.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/307.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/308.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/309.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/310.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/311.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/312.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/313.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/314.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/315.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/316.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/317.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/318.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/318.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/319.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/320.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/321.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/322.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/323.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/324.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/325.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/326.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/327.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/328.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/329.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/330.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0331.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0401.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0402.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0405.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0406.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0407.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0408.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0409.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0410.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0411.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0412.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0413.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0414.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0415.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0416.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0417.
+    
+# 订阅链接6
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml
+
+# 订阅链接7
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/adskd/ffasdc1/main/70m%2Bv2RAY
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/adskd/ffasdc1/main/new%3Dpac
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/adskd/ffasdc1/main/12345
+- type: subscribe
+  options:
+    url: https://yzzz.ml/freessr
+
+# 订阅链接8
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/AmazingDM/sub/master/ssrshare.com
+- type: subscribe
+  options:
+    url: https://prom-php.herokuapp.com/cloudfra_ssr.txt
+- type: subscribe
+  options:
+    url: https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcm1pZzBTamlSVWNnakV5cF9Sc2pRVDRBZVN1P2U9QWFLeEow
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/coolapijust/cxkv2-/main/plate
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/jsnjsnwbtwbt/TEzNC1jOTY1ZGE5OWM1ZT/main/Stable
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/jsnjsnwbtwbt/2D2F/main/2C2F
+- type: subscribe
+  options:
+    url: https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcm1pZzBTamlSVWNnakV5cF9Sc2pRVDRBZVN1P2U9QWFLeEow
+- type: subscribe
+  options:
+    url: https://suo.yt/aFe20zz
+- type: subscribe
+  options:
+    url: https://8.136.5.236/clash/proxies
+
+# 订阅链接9
+#自动动态更新
+- type: subscribe
+  options:
+    url: http://120.92.132.166:8888/down/QBXFCG5vwkzr
+- type: subscribe
+  options:
+    url: https://suo.yt/JMvfwOT
+#自动动态更新    
+- type: subscribe
+  options:
+    url: https://www.liesauer.net/yogurt/subscribe?ACCESS_TOKEN=d309c6921bbd7d0d
+- type: subscribe
+  options:
+    url: https://qiaomenzhuanfx.netlify.com/
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/hotsymbol/vpnsetting/master/v2rayopen
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- type: subscribe
+  options:
+    url: https://iwxf.netlify.app/
+- type: subscribe
+  options:
+    url: https://youlianboshi.netlify.com/
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/satrom/V2SSR/master/SSR/Day.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+- type: subscribe
+  options:
+    url: https://www.liesauer.net/yogurt/subscribe?ACCESS_TOKEN=DAYxR3mMaZAsaqUb
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/satrom/V2SSR/master/SSR/Sub.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0411.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/RaymondHarris971/ssrsub/master/9a075bdee5.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/voken100g/AutoSSR/master/recent
+- type: subscribe
+  options:
+    url: https://jiang.netlify.com/
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- type: subscribe
+  options:
+    url: https://youlianboshi.netlify.app/
+
+# 网页模糊抓取
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+
+- type: webfuzz
+  options:
+    url: https://view.freev2ray.org/
+
+- type: webfuzz
+  options:
+    url: https://jichangdaquan.com/node/429.html
+
+# 网页模糊抓取1
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+- type: webfuzz
+  options:
+  url: https://github.com/free-ss/free-ss.site
+- type: webfuzz
+  options:
+  url: https://www.myexplor.me
+- type: webfuzz
+  options:
+    url: https://free-ss.site/
+
+# 网页模糊抓取2
+- type: webfuzz
+  options:
+    url: https://zfjvpn.gitbook.io/
+- type: webfuzz
+  options:
+    url: https://zfjvpn.gitbook.io/123/
+- type: webfuzz
+  options:
+    url: http://www.gaofumei.net/networks/
+- type: webfuzz
+  options:
+    url: https://www.freefq.com/d/file/v2ray/20210409/ae29c1c14821f778de249eb29201d34f.htm
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ss/ss.txt
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ssr/ssr.txt
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/freefq/free/master/README.md
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/52bp/52bp.github.io/master/freesite.html
+
+# tg频道抓取
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssList
+    num: 200
+- type: tgchannel
+  options:
+    channel: SSRSUB
+    num: 200
+- type: tgchannel
+  options:
+    channel: FreeSSRNode
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrlists
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrshares
+    num: 200
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrtool
+    num: 100
+- type: tgchannel
+  options:
+    channel: ssrtool_crack
+    num: 100
+- type: tgchannel
+  options:
+    channel: vmessr
+    num: 200
+- type: tgchannel
+  options:
+    channel: FreeSSR666
+    num: 200
+- type: tgchannel
+  options:
+    channel: fanqiang666
+    num: 200
+- type: tgchannel
+  options:
+    channel: jiedianfenxiang
+    num: 200
+- type: tgchannel
+  options:
+    channel: freeshadowsock
+    num: 200
+- type: tgchannel
+  options:
+    channel: TGSoBot?start=f_v
+    num: 200
+- type: tgchannel
+  options:
+    channel: outlinex
+    num: 200
+- type: tgchannel
+  options:
+    channel: jingpingziyuanfenxiang
+    num: 200
+- type: tgchannel
+  options:
+    channel: MeAndMyPY
+    num: 200
+- type: tgchannel
+  options:
+    channel: lanxhcom
+    num: 200
+
+
+# 翻墙党论坛抓取
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-48-1.html
+
+# 翻墙党论坛抓取1
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-51-1.html
+
+# 翻墙党论坛抓取2
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-36-1.html
+
+# 翻墙党，后面的东西都无需修改
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=50&auth=0
+    num: 200
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=2&auth=0
+    num: 200
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum.php?mod=rss&fid=36&auth=0
+    num: 200
+
+# clash格式订阅链接 
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
+
+# 某个网站抓取
+- type: web-freessrxyz
+  options:

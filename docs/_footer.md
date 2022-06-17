@@ -1,0 +1,1 @@
+Made with <span class="pump">❤</span> by [安田俊樹](https://www.toshiki.top/) & [Chenskiro](https://www.chenskiro.top), proudly used [ Docsify](https://docsify.js.org) for documentation.

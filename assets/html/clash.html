@@ -1,0 +1,170 @@
+<!--
+    
+   ████████╗ ██████╗ ███████╗██╗  ██╗██╗██╗  ██╗██╗
+   ╚══██╔══╝██╔═══██╗██╔════╝██║  ██║██║██║ ██╔╝██║
+      ██║   ██║   ██║███████╗███████║██║█████╔╝ ██║
+      ██║   ██║   ██║╚════██║██╔══██║██║██╔═██╗ ██║
+      ██║   ╚██████╔╝███████║██║  ██║██║██║  ██╗██║
+      ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <title>俊樹 | Proxypool</title>
+    <meta property="og:description" content="俊樹のfree proxies & nodes">
+    <meta name="keywords" content="免费的ss、ssr、vmess、torjan节点">
+    <link rel="shortcut icon" href="https://cdn.toshiki.top/img/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/client/metron-icon.css" /> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-proxypool-ui/css/client/metron-icon.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-proxypool-ui/css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-cdn@master/css/proxy.css">
+    <link crossorigin="anonymous" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" href="https://lib.baomitu.com/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar is-primary pl-2 pr-2" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="https://{{ .domain }}" class="navbar-item">
+                <h1 class="title is-4">🌮俊樹のProxy</h1>
+            </a>
+            <a role="button" class="navbar-burger burger is-white" aria-label="menu" aria-expanded="false" data-target="clients">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="clients" class="navbar-menu">
+            <div class="navbar-start is-size-6">
+                <a href="./clash" class="navbar-item"><span class="icon"><i class="metron-clash"></i></span>&nbspClash</a>
+                <a href="./shadowrocket" class="navbar-item"><span class="icon"><i class="metron-shadowrocket"></i></span>&nbspShadowRocket</a>
+                <a href="./surge" class="navbar-item"><span class="icon"><i class="metron-surge"></i></span>&nbspSurge</a>
+                <a href="https://subweb.toshiki.top/" class="navbar-item">&nbsp?&nbsp&nbsp更多</a>
+                <a href="http://www.toshiki.top" target="_blank" rel="noopener noreferrer" class="navbar-item"><span class="icon"><i class="fa-solid fa-house-user fa-sm"></i></i></span>&nbsp關於我</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Body -->
+    <div class="container">
+        <div class="section pb-0">
+            <h1 class="title is-2"><i class="metron-clash"></i>&nbspClash</h1>
+        </div>
+        <section class='section'>
+            <h5 class="title is-4 mt-3">配置文件</h5>
+            <div class="table-container mt-2">
+                <table class="table is-fullwidth">
+                    <tbody>
+                        <tr>
+                            <th>遠程配置文件</th>
+                            <td>https://{{ .domain }}/clash/config</td>
+                            <td class="has-text-right"><a href="clash://install-config?url=https://{{ .domain }}/clash/config" class="button is-small is-link">一鍵導入</a></td>
+                        </tr>
+                        <tr>
+                            <th>本地部署時配置文件</th>
+                            <td>http://127.0.0.1:{{ .port }}/clash/config</td>
+                            <td class="has-text-right"><a href="clash://install-config?url=http://127.0.0.1:{{ .port }}/clash/localconfig" class="button is-small is-link">一鍵導入</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <article class="message is-info">
+                <div class="message-body">
+                    以上提供的配置文件本身不包含節點，而使用clash provider的方式加載遠程節點。
+                </div>
+            </article>
+        </section>
+        <section class="section">
+            <h5 class="title is-4">Provider</h5>
+            <div class="table-container">
+                <div class="table-container">
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            <tr>
+                                <th>所有節點</th>
+                                <td>https://{{ .domain }}/clash/proxies</td>
+                                <td class="has-text-right"><button class="button is-small is-primary" onclick="onCopy(this)">複製</button></td>
+                            </tr>
+                            <tr>
+                                <th>篩選節點示例</th>
+                                <td>https://{{ .domain }}/clash/proxies?c=CN,HK,TW&speed=15,30&type=ss</td>
+                                <td class="has-text-right"><button class="button is-small is-primary" onclick="onCopy(this)">複製</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <article class="message is-danger">
+                    <div class="message-body">
+                        <span class="pump">❗️</span> 節點過多會造成軟件卡頓，可以自行對provider進行篩選後更改配置文件。
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section ">
+            <h5 class="title is-5">Provider篩選參數</h5>
+            <p><span class="pump">🌟</span> 使用<b><a href="https://en.wikipedia.org/wiki/Query_string">URL Query</a></b>對Clash Provider進行篩選</p>
+            <div class="table-container mt-2">
+                <table class="table is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <td>Query&nbspKey</td>
+                            <td>Query&nbspValue</td>
+                            <td>備註</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>類型</th>
+                            <td>type</td>
+                            <td>ss,ssr,vmess,trojan</td>
+                            <td>可同時選擇多個類型</td>
+                        </tr>
+                        <tr>
+                            <th>國家</th>
+                            <td>c</td>
+                            <td>AT,CN,IN,HK,JP,NL,RU,SG,TW,US...</td>
+                            <td>可同時選擇多個國家</td>
+                        </tr>
+                        <tr>
+                            <th>排除國家</th>
+                            <td>nc</td>
+                            <td>AT,CN,IN,HK,JP,NL,RU,SG,TW,US...</td>
+                            <td>可同時選擇多個國家</td>
+                        </tr>
+                        <tr>
+                            <th>速度</th>
+                            <td>speed</td>
+                            <td>任何數字</td>
+                            <td>單個數字選擇最低速度<br>兩個數字選擇速度區間</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+    <footer class="footer has-text-centered">
+        <b>Made with <span class="pump">❤</span> by <a href="http://www.toshiki.top/" target="_blank" rel="noopener noreferrer">安田俊樹</a> & <a href="http://chenskiro.top" target="_blank" rel="noopener noreferrer">Chenskiro</a></b>
+    </footer>
+    <script src="static/index.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DCDSWS8PF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5DCDSWS8PF');
+    </script>    
+
+</body>
+
+</html>
