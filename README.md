@@ -1,8 +1,6 @@
-<h1 align="center">
-  🌐 Toshiki's Proxy Pool
-</h1>
+# 🌐 Toshiki's Proxy Pool
 
-<h5 align="center">Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.</h5>
+> Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.
 
 <p align="center"><a href="">繁體中字</a> | 日本語</p>
 
