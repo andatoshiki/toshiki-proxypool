@@ -20,7 +20,7 @@ self-hosted workflows issues and errors explained:
 - [ ] running make command on win based systems either via mingw32 or chocolatey, never tested on the other ones.
 - [ ] Add heroku deployment option via app.json+heroku deploy button on README
 - [ ] Add fly.io deployment option via fy.toml, refer to https://github.com/ssrlive/proxypool for newly implemented options.
-- [ ] cloudflare/cache.go removed due to not enough arguments, refer more at https://github.com/andatoshiki/toshiki-proxypool/runs/6932178272?check_suite_focus=true
+- [ ] cloudflare/cache.go commented some lines due to not enough arguments, refer more at https://github.com/andatoshiki/toshiki-proxypool/runs/6932178272?check_suite_focus=true, solution found in https://github.com/ssrlive/proxypool
 - [ ] golang.org/x/net and other pkgs require go version <=1.17.x, incompatible with greater versioned workflow runners, that causes error on building outputs, refer the issue here https://github.com/andatoshiki/toshiki-proxypool/runs/6930875206?check_suite_focus=true
 - [ ] add bt/aapanel panel installation guide for Chinese users
 - [ ] Building from source
