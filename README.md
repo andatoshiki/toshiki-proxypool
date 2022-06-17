@@ -147,4 +147,4 @@ proxypool -c ./config/config.yaml
 
 ## 声明
 
-LICENSE based on GNU
+License based on GNU for releases and re-distributions
