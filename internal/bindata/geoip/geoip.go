@@ -16,7 +16,7 @@ import (
 func bindataRead(path, name string) ([]byte, error) {
 	buf, err := ioutil.ReadFile(path)
 	if err != nil {
-		err = fmt.Errorf("Error reading asset %s at %s: %v", name, path, err)
+		err = fmt.Errorf("error when reading asset %s at %s: %v", name, path, err)
 	}
 	return buf, err
 }
@@ -37,7 +37,7 @@ func assetsGeolite2CityMmdb() (*asset, error) {
 
 	fi, err := os.Stat(path)
 	if err != nil {
-		err = fmt.Errorf("Error reading asset info %s at %s: %v", name, path, err)
+		err = fmt.Errorf("error when reading asset info %s at %s: %v", name, path, err)
 	}
 
 	a := &asset{bytes: bytes, info: fi}
@@ -55,14 +55,14 @@ func assetsFlagsJson() (*asset, error) {
 
 	fi, err := os.Stat(path)
 	if err != nil {
-		err = fmt.Errorf("Error reading asset info %s at %s: %v", name, path, err)
+		err = fmt.Errorf("error when reading asset info %s at %s: %v", name, path, err)
 	}
 
 	a := &asset{bytes: bytes, info: fi}
 	return a, err
 }
 
-// Asset loads and returns the asset for the given name.
+// Asset loads and returns the asset bytes for the given name.
 // It returns an error if the asset could not be found or
 // could not be loaded.
 func Asset(name string) ([]byte, error) {
@@ -159,9 +159,9 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"assets": {nil, map[string]*bintree{
-		"GeoLite2-City.mmdb": {assetsGeolite2CityMmdb, map[string]*bintree{}},
-		"flags.json":         {assetsFlagsJson, map[string]*bintree{}},
+	"assets": &bintree{nil, map[string]*bintree{
+		"GeoLite2-City.mmdb": &bintree{assetsGeolite2CityMmdb, map[string]*bintree{}},
+		"flags.json":         &bintree{assetsFlagsJson, map[string]*bintree{}},
 	}},
 }}
 
