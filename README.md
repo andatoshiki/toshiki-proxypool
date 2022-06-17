@@ -25,6 +25,9 @@
   <a href="https://github.com/andatoshiki/toshiki-proxypool/releases">
     <img src="https://img.shields.io/github/release/andatoshiki/toshiki-proxypool/all.svg?style=plastic">
   </a>
+  <!-- codeql workflow stats -->
+  <a href="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml">
+    <img src="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml/badge.svg" alt="CodeQl workflow status">
 </p>
 
 ---
