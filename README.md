@@ -1,8 +1,3 @@
-<figure>
-<img src="img/proxypool.png"
-         alt="Elephant at sunset"></img>
-<figcaption align="center"><small>social image created on <a href="https://canva.cn/">Canvas</a></small></figcaption>
-</figure>
 <h1 align="center">
   🌐 Toshiki's Proxy Pool
 </h1>
