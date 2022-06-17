@@ -159,9 +159,9 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"assets": &bintree{nil, map[string]*bintree{
-		"GeoLite2-City.mmdb": &bintree{assetsGeolite2CityMmdb, map[string]*bintree{}},
-		"flags.json":         &bintree{assetsFlagsJson, map[string]*bintree{}},
+	"assets": {nil, map[string]*bintree{
+		"GeoLite2-City.mmdb": {assetsGeolite2CityMmdb, map[string]*bintree{}},
+		"flags.json":         {assetsFlagsJson, map[string]*bintree{}},
 	}},
 }}
 

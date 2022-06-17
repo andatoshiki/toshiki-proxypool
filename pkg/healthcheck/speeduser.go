@@ -100,7 +100,7 @@ func distance(lat1 float64, lon1 float64, lat2 float64, lon2 float64) float64 {
 
 // StartTest : start testing to the servers.
 func (svrs Servers) StartTest(clashProxy C.Proxy) {
-	for i, _ := range svrs {
+	for i := range svrs {
 		latency := pingTest(clashProxy, svrs[i].URL)
 		if latency == time.Second*5 { // fail to get latency, skip
 			continue

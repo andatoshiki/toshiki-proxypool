@@ -42,7 +42,7 @@ func (ps *Stat) UpdatePSCount() {
 // Find a proxy's Stat in StatList
 func (psList StatList) Find(p proxy.Proxy) (*Stat, bool) {
 	s := p.Identifier()
-	for i, _ := range psList {
+	for i := range psList {
 		if psList[i].Id == s {
 			return &psList[i], true
 		}
@@ -54,7 +54,7 @@ func (psList StatList) Find(p proxy.Proxy) (*Stat, bool) {
 func (psList StatList) ReqCountThan(n uint16, pl []proxy.Proxy, reset bool) []proxy.Proxy {
 	proxies := make([]proxy.Proxy, 0)
 	for _, p := range pl {
-		for j, _ := range psList {
+		for j := range psList {
 			if psList[j].ReqCount > n && p.Identifier() == psList[j].Id {
 				proxies = append(proxies, p)
 			}
@@ -62,7 +62,7 @@ func (psList StatList) ReqCountThan(n uint16, pl []proxy.Proxy, reset bool) []pr
 	}
 	// reset request count
 	if reset {
-		for i, _ := range psList {
+		for i := range psList {
 			psList[i].ReqCount = 0
 		}
 	}

@@ -68,7 +68,7 @@ func CleanBadProxiesWithGrpool(proxies []proxy.Proxy) (cproxies []proxy.Proxy) {
 		case <-done:
 			cproxies = make(proxy.ProxyList, 0, 500) // 定义返回的proxylist
 			// check usable proxy
-			for i, _ := range proxies {
+			for i := range proxies {
 				if _, ok := okMap[proxies[i].Identifier()]; ok {
 					//cproxies = append(cproxies, p.Clone())
 					cproxies = append(cproxies, proxies[i]) // 返回对GC不友好的指针看会怎么样
