@@ -42,3 +42,4 @@ self-hosted workflows issues and errors explained:
 - [ ] Redesign icon for proxypool
 - [ ] Configure markdown, javascript, go... lint workflow action, currently unknown on how to work out
 - [ ] **Get some sleep you idiot**
+- [ ] Rewrite the docs both in GitHub wikis, docsify and docusaurus for backup in case accessible domain blockages or CDN issues, **REMEMBER TO BACKUP THE IMAGES!**
