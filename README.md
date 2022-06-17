@@ -28,9 +28,12 @@
   <!-- codeql workflow stats -->
   <a href="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml">
     <img src="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml/badge.svg" alt="CodeQl workflow status">
+  </a>
+  <!-- docker image build and publish workflow stats -->
+  <a href="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml">
+    <img src="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml/badge.svg">
+  </a>
 </p>
-
----
 
 ## 🚫 1-1 RBYP <small>(Read before you proceed)</small>
 
@@ -39,8 +42,6 @@
 - ***The original author is no longer maintaining the original project, thus this project exists.***
 
 - **Issues function will be disabled in this repository for preventing further affairs and issues from happening.**
-
----
 
 ## 💦 2-1 What is [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/)?
 
