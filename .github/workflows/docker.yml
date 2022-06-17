@@ -18,8 +18,8 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v3.0.0
         with:
-          username: xiaofei-ya
+          username: andatoshiki
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: andatoshiki/toshiki-proxypool/proxypool
+          repository: andatoshiki/toshiki-proxypool
           tag_with_ref: true
