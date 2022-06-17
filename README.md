@@ -8,7 +8,9 @@
 
 <p align="center">
   <!-- wakatime stats -->
-  <img src="https://img.shields.io/badge/total-21%20hrs%2054%20mins-blue?style=plastic&logo=wakatime"></img>
+  <a href="https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8">
+    <img src="https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8.svg" alt="wakatime">
+  </a>
   <!-- social info -->
   <a href="https://t.me/awesomeandatoshiki">
     <img src="https://img.shields.io/badge/Telegram-@andatoshiki-green?style=plastic&logo=telegram"></img>
