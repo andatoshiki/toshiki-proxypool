@@ -1,4 +1,4 @@
-# 🌐 Toshiki's Proxy Pool
+# Toshiki's Proxy Pool
 
 > Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.
 
@@ -17,7 +17,7 @@
   </a>
   <!-- go report stats -->
   <a href="https://goreportcard.com/report/github.com/andatoshiki/toshiki-proxypool">
-    <img src="https://goreportcard.com/badge/github.com/andatoshiki/toshiki-proxypool?style=plastic">
+    <img src="https://goreportcard.com/badge/github.com/andatoshiki/toshiki-proxypool" alt="Go report card">
   </a>
   <!-- github release stats -->
   <a href="https://github.com/andatoshiki/toshiki-proxypool/releases">
