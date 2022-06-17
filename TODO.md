@@ -43,3 +43,7 @@ self-hosted workflows issues and errors explained:
 - [ ] Configure markdown, javascript, go... lint workflow action, currently unknown on how to work out
 - [ ] **Get some sleep you idiot**
 - [ ] Rewrite the docs both in GitHub wikis, docsify and docusaurus for backup in case accessible domain blockages or CDN issues, **REMEMBER TO BACKUP THE IMAGES!**
+- [ ] How to make the docker image/ghcr package public on GitHub
+  - [ ] Linking to repo
+  - [ ] Change visibility
+  - [ ] And a lot of other shits I don't know, but yes, sleep rn (update 6/17/2022)
