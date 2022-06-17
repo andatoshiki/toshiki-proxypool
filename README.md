@@ -2,8 +2,6 @@
 
 > Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.
 
-<p align="center"><a href="">繁體中字</a> | 日本語</p>
-
 <p align="center">
   <!-- wakatime stats -->
   <img src="https://img.shields.io/badge/total-21%20hrs%2054%20mins-blue?style=plastic&logo=wakatime"></img>
