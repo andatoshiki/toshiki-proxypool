@@ -149,7 +149,3 @@ proxypool -c ./config/config.yaml
 ![Speedtest](docs/speedtest.png)
 
 ![Fast](docs/fast.png)
-
-## LICENSE
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_large)
