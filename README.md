@@ -2,7 +2,7 @@
 
 <h1>俊樹のProxypool</h1>
 
-> The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan and much more!
+> The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan!
 <!--Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
 
 <!-- add translation here later on with href links for easier access -->
