@@ -13,7 +13,7 @@ tmp/
 *_test.*
 
 # Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# *.out
 
 # dep
 vendor
@@ -34,6 +34,3 @@ vendor
 
 # build outputs
 .bin
-
-# original geoip.go
-internal/bindata/geoip/geoip_original.go
