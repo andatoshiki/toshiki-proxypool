@@ -15,8 +15,8 @@ jobs:
       - name: Get dependencies and run test
         run: |
           go get 
-          go test all
+          go test ./...
       - name: Run coverage
-        run: go test all -race -coverprofile=coverage.txt -covermode=atomic
+        run: go test ./... -race -coverprofile=coverage.txt -covermode=atomic
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
