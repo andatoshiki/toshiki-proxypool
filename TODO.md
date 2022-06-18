@@ -34,7 +34,7 @@ self-hosted workflows issues and errors explained:
 - [ ] Code of Conduct, contributing.md... in .github folder
 - [ ] Documentations via docusaurus hosted in a subfolder of that doc site
 - [ ] Reconstruct better looking READMEs
-- [ ] Code owners, and it's original owners, full reasons on why this toshiki-proxypool project exsits.
+- [ ] Code owners, and it's original owners, full reasons on why this toshiki-proxypool project exists.
 - [ ] Thanks to @xiaofei-ya's Note.md note file in the root folder of the repo, without that shit, my dev speed will be 10 times slower along with thousands of tabs on stackoverflow in my browser
 - [ ] i18n language localizations and etc (Simplified Chinese, Traditional Chinese, English, Japanese), the program itself with Chinese commenting is fine, but the web UI
 - [ ] Rewrite web UI, publish a new release without my own comments/links on, based on the original proxypool UI, rewrite using materialize framework (dark theme switch included)
@@ -42,9 +42,11 @@ self-hosted workflows issues and errors explained:
 - [ ] Add repo star sparklines graphs in regard to https://github.com/antonmedv/spark
 - [ ] Redesign icon for proxypool
 - [ ] Configure markdown, javascript, go... lint workflow action, currently unknown on how to work out
-- [ ] **Get some sleep you idiot**
+- [x] **Get some sleep you idiot**
 - [ ] Rewrite the docs both in GitHub wikis, docsify and docusaurus for backup in case accessible domain blockages or CDN issues, **REMEMBER TO BACKUP THE IMAGES!**
 - [ ] How to make the docker image/ghcr package public on GitHub
   - [ ] Linking to repo
   - [ ] Change visibility
-  - [ ] And a lot of other shits I don't know, but yes, sleep rn (update 6/17/2022)
+  - [x] And a lot of other shits I don't know, but yes, sleep rn (update 6/17/2022)
+- [x] FOSSA and codecov code analysis badge added
+    - Add a coverage.txt file to the root of project for making codecov's API able to fetch the coverage report file.
