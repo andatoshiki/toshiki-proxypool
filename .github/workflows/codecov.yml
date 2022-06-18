@@ -14,7 +14,7 @@ jobs:
           go-version: '1.17.x'
       - name: Run coverage
         run: 
-          go get -u -v github.com/andatoshiki/toshiki-proxypool
+          go get
           go test ./... -race -coverprofile=coverage.txt -covermode=atomic
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
