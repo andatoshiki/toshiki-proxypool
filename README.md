@@ -15,11 +15,11 @@
   </a>
   <!-- social info -->
   <a href="https://t.me/awesomeandatoshiki">
-    <img src="https://img.shields.io/badge/Telegram-@andatoshiki-green?style=plastic&logo=telegram"></img>
+    <img src="https://img.shields.io/badge/Telegram-@andatoshiki-green?style=flat&logo=telegram"></img>
   </a>
   <!-- github action stats -->
   <a href="https://github.com/andatoshiki/toshiki-proxypool/actions">
-    <img src="https://img.shields.io/github/workflow/status/andatoshiki/toshiki-proxypool/Go?style=plastic" alt="Github Actions">
+    <img src="https://img.shields.io/github/workflow/status/andatoshiki/toshiki-proxypool/Go?style=flat" alt="Github Actions">
   </a>
   <!-- go report stats -->
   <a href="https://goreportcard.com/report/github.com/andatoshiki/toshiki-proxypool">
@@ -27,7 +27,7 @@
   </a>
   <!-- github release stats -->
   <a href="https://github.com/andatoshiki/toshiki-proxypool/releases">
-    <img src="https://img.shields.io/github/release/andatoshiki/toshiki-proxypool/all.svg?style=plastic">
+    <img src="https://img.shields.io/github/release/andatoshiki/toshiki-proxypool/all.svg?style=flat">
   </a>
   <!-- codeql workflow stats -->
   <a href="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml">
@@ -37,6 +37,7 @@
   <a href="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml">
     <img src="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml/badge.svg">
   </a>
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/andatoshiki/toshiki-proxypool?label=issues&logo=github">
 </p>
 
 ## 🚫 1-1 RBYP <small>(Read before you proceed)</small>

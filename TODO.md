@@ -29,7 +29,8 @@ self-hosted workflows issues and errors explained:
 - [ ] Explain the detailed reasons on why the first few workflows failed that was automatically triggered by dependabot, and view it's original workflow files for further debugging details
 - [ ] Conventional commit via husky, not yet implemented, video on bilibili detailly explained
 - [ ] PR templates, issue templates, discussions...
-- [ ] Changelog automatic generations by conventional commits
+- [x] Changelog automatic generations by conventional commits
+  - [x] Manually updated Changelog of `v0.0.1`
 - [ ] Code of Conduct, contributing.md... in .github folder
 - [ ] Documentations via docusaurus hosted in a subfolder of that doc site
 - [ ] Reconstruct better looking READMEs
