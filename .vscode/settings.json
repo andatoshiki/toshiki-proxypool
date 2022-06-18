@@ -1,3 +1,5 @@
 {
-    "makefile.extensionOutputFolder": "./.vscode"
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///d%3A/Alex/Resources/GitHub/toshiki-proxypool/.github/workflows/codecov.yml"
+    }
 }
