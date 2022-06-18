@@ -6,8 +6,6 @@
 <!--Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
 
 <!-- add translation here later on with href links for easier access -->
-
-<!-- test pr merging for docker image sucess publish -->
 <br />
 
 <p align="center">
