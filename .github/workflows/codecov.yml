@@ -19,4 +19,3 @@ jobs:
         with:
           verbose: true
           version: "v0.1.15"
-          files: ./coverage/coverage.xml
