@@ -38,7 +38,7 @@
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/andatoshiki/toshiki-proxypool?label=issues&logo=github">
 </p>
 
-## 🚫 1-1 RBYP <small>(Read before you proceed)</small>
+## Read Before You Proceed
 
 > **⚠**: Note that this project was **originally** released by **[sansui233](https://github.com/Sansui233/proxypool)** licensed under **[GNU](https://www.gnu.org/licenses/licenses.en.html)** for project derivational development and distribution; As required by original developers, project content contained under [proxypool](https://github.com/Sansui233/proxypool) and its affiliates **MUST** be copyleft yet pointing the credit of the original developer. *Hence this project and its assets in contained is a new branch & version published and secondarily developed from the original project*, please understand and ensure copywrites are **pointing the original author** for your own development.
 
@@ -46,11 +46,11 @@
 
 - **Issues function will be disabled in this repository for preventing further affairs and issues from happening.**
 
-## 💦 2-1 What is [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/)?
+## What is [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/)?
 
 Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node crawler written in GoLang and complied into a compiled into a Linux image for VPS deployment, you can also try deployment for Heroku, completely free to use, see the next section for further info.
 
-### 💌 2-2 What does it support?
+### What does it support?
 
 - **🧩 Extensible**: Support SSS, SSR, vmess, trojan & a variable types of nodes.
 - **💬 Telegram**: Telegram channel sniffer & crawling.
@@ -63,9 +63,9 @@ Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node cra
 - **🔮 Subscription**: Provide direct SS, SSR, vmess, sip002 subscription.
 - **🎠 Deployable**: Easy deployment, **VPS/Heroku/Local/Docker** deployment supported.
 
-## 🔽 3-1 Installation
+## Installation
 
-### 🎫 3-1 [Heroku](https://www.heroku.com/)
+### [Heroku](https://www.heroku.com/)
 
 ### 
 
