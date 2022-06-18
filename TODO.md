@@ -1,6 +1,6 @@
 # TODO
 
-> This files contains the current to-do list for future and also some memos in case I forget, will be synced into issue #1 every time I update this file. **Note that this has not been fully formatted but with simple markdown listings (since all these were just a rush through of my memory on what I did/bugs/failures I encounter in a short time period in case I forget)**
+> This files contains the current to-do list for future and also some memos in case I forget, will be synced into issue#24 every time I update this file. **Note that this has not been fully formatted but with simple markdown listings (since all these were just a rush through of my memory on what I did/bugs/failures I encounter in a short time period in case I forget)**
 
 self-hosted workflows issues and errors explained:
 
