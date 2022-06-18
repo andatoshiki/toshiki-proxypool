@@ -17,6 +17,7 @@ const defaultURLTestTimeout = time.Second * 5
 
 func CleanBadProxiesWithGrpool(proxies []proxy.Proxy) (cproxies []proxy.Proxy) {
 	// Note: Grpool实现对go并发管理的封装，主要是在数据量大时减少内存占用，不会提高效率。
+	// Note: Grpool implements the encapsulation of go concurrency management, mainly to reduce memory usage when the amount of data is large, and will not improve efficiency.
 	pool := grpool.NewPool(500, 200)
 
 	c := make(chan *Stat)
