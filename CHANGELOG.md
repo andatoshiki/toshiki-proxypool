@@ -68,3 +68,46 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 * @toshikijp made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/16
 
 **Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/commits/v0.0.1
+
+## `V0.0.11-alpha`
+
+### What's new in `v0.0.11-alpha`
+
+#### New Features
+
+- ✨(New in `v0.0.11`): Added country node speed white listing feature which is available to set through under `config.yml` file with the following configs,
+
+  ```yml
+  ...
+  # country white-listing AE,BE,CA,TW,DE,HK,IT,PL,US
+  speed-country-white-list: "Relay,AE,BE,CA,TW,DE,HK,IT,PL,US"
+  ...
+  ```
+  
+  Only with the countries that you want to be displayed/crawled within your application, under your control, see the following commits for more details. (Reference from [@one-pieces's commit](https://github.com/One-Piecs/proxypool/commit/4790143f21e91d7d8292d7855189703a7897115d) on Sep 9, 2021)
+  - ([`2b2d786`](https://github.com/andatoshiki/toshiki-proxypool/commit/2b2d786))
+  - ([`32140a0`](https://github.com/andatoshiki/toshiki-proxypool/commit/32140a0))
+
+#### Fixes
+
+- 🐛 (Bug in `v0.0.11`): Fixed [internal/cloudflare/cahche.go](https://github.com/andatoshiki/toshiki-proxypool/blob/master/internal/cloudflare/cache.go) `not enough arguments in call to api.ZoneDetails` issue with `Error: internal/cloudflare/cache.go:24:31: not enough arguments in call to api.ZoneDetails` error outputs, uncommented `cache.go` file, see the following commits for details. (Reference from [@one-pieces's commit](https://github.com/One-Piecs/proxypool/commit/4790143f21e91d7d8292d7855189703a7897115d) on Sep 9, 2021)
+  - ([`56e6e6a`](https://github.com/andatoshiki/toshiki-proxypool/commit/56e6e6a))
+  - ([`5985923`](https://github.com/andatoshiki/toshiki-proxypool/commit/5985923))
+  - ([`4ad6883`](https://github.com/andatoshiki/toshiki-proxypool/commit/4ad6883))
+
+###  What's Changed
+* build(deps): bump actions/upload-artifact from 2.2.1 to 3.1.0 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/29
+* build(deps): bump actions/stale from 04a1828bc18ada028d85a0252a47cd2963a91abe to 5 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/28
+* build(deps): bump docker/setup-qemu-action from 1 to 2 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/27
+* build(deps): bump actions/cache from 2 to 3 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/26
+* build(deps): bump docker/login-action from 1 to 2 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/25
+* Create zh_cnReadme.md by @DTpeel in https://github.com/andatoshiki/toshiki-proxypool/pull/32
+* doc(readme): fossa bot automatic pr merging for badge by @fossabot in https://github.com/andatoshiki/toshiki-proxypool/pull/31
+* chore: rm unecessities by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/34
+* feat(i18n): added corwdin setting file by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/35
+
+### New Contributors
+* @DTpeel made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/32
+* @fossabot made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/31
+
+**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.1...v0.0.11-alpha
