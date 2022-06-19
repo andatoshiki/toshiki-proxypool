@@ -3,6 +3,7 @@ package cloudflare
 import (
 	"fmt"
 	"log"
+	"context"
 
 	"github.com/cloudflare/cloudflare-go"
 	"github.com/andatoshiki/toshiki-proxypool/config"
