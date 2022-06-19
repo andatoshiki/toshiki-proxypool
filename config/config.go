@@ -22,6 +22,7 @@ type ConfigOptions struct {
 	SourceFiles       []string `json:"source-files" yaml:"source-files"`
 	SpeedTest         bool     `json:"speedtest" yaml:"speedtest"`
 	SpeedTestInterval uint64   `json:"speedtest-interval" yaml:"speedtest-interval"`
+	SpeedCountryWhiteList string `json:"speed-country-white-list" yaml:"speed-country-white-list"`
 	Connection        int      `json:"connection" yaml:"connection"`
 	Timeout           int      `json:"timeout" yaml:"timeout"`
 	ActiveFrequency   uint16   `json:"active-frequency" yaml:"active-frequency" `

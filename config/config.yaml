@@ -21,6 +21,9 @@ crontime:             # v0.4.x default 60 (minutes). Deprecated in the newest ve
 # speed test
 speedtest: false      # default false. Warning: this will consume large network resources.
 speedtest-interval:   # default 720 (min)
+
+# country white-listing AE,BE,CA,TW,DE,HK,IT,PL,US
+speed-country-white-list: "Relay,AE,BE,CA,TW,DE,HK,IT,PL,US"
 connection:           # default 5. The number of speed test connections simultaneously
 timeout:              # default 10 (seconds).
 ## active proxy speed test
