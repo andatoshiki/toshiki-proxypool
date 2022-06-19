@@ -5,8 +5,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sun Jun 19 13:55:20 2022
+# Make data base, printed on Mon Jun 20 04:36:06 2022
 
 # Variables
 
@@ -25,7 +26,7 @@ BINDIR = bin
 # environment
 LOCALAPPDATA = C:\Users\andatoshiki\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b5b09cce-5e42-468e-b958-067cefd3a814-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7efd887b-c1a6-46b7-8886-016d7e7d85c5-sock
 # environment
 VSCODE_CWD = D:\Alex\Apps\VsCode
 # environment
@@ -45,7 +46,7 @@ GOPATH = D:\Alex\Resources\GitHub\GoWorks
 # environment
 DOKANLIBRARY1_LIBRARYPATH_X64 = D:\Alex\Apps\Doken Library\lib\
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13496_SRHOBIRPIVNABRED
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22768_GUJLEENSIDIBWEWF
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -107,7 +108,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 13496
+VSCODE_PID = 22768
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -115,7 +116,8 @@ POSH_THEMES_PATH = C:\Users\Alex Shao\AppData\Local\Programs\oh-my-posh\themes
 # automatic
 *F = $(notdir $*)
 # automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+<D = $(patsubst %/,% 
+,$(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
@@ -133,7 +135,8 @@ DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # makefile (from 'Makefile', line 74)
 gz_releases = $(addsuffix .gz, $(PLATFORM_LIST))
 # environment
-COMSPEC = C:\windows\system32\cmd.exe
+COMSPEC = C:\windows\system32\cmd.e 
+xe
 # environment
 WINDIR = C:\windows
 # environment
@@ -274,7 +277,8 @@ linux-armv6:
 
 freebsd-386.gz: freebsd-386
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'freebsd-386'
+#  Implicit/static pattern stem: 'freebsd-386 
+'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 77):
@@ -341,7 +345,8 @@ linux-386.gz: linux-386
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 77):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
-	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/ 
+$(NAME)-$(basename $@)
 
 linux-mips64:
 #  Implicit rule search has not been done.
@@ -473,7 +478,8 @@ linux-mipsle-hardfloat:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 60):
-	GOARCH=mipsle GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
+	GOARCH=mipsle GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BIN 
+DIR)/$(NAME)-$@
 
 linux-386:
 #  Implicit rule search has not been done.
@@ -542,7 +548,8 @@ linux-armv8:
 	GOARCH=arm64 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
 freebsd-amd64.gz: freebsd-amd64
-#  Implicit rule search has not been done.
+#  Implicit rul 
+e search has not been done.
 #  Implicit/static pattern stem: 'freebsd-amd64'
 #  Modification time never checked.
 #  File has not been updated.
@@ -585,12 +592,13 @@ linux-amd64:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 70 / storage = 797 B / avg = 11 B
+# strcache buffers: 
+ 1 (0) / strings = 70 / storage = 797 B / avg = 11 B
 # current buf: size = 8174 B / used = 797 B / count = 70 / avg = 11 B
 
 # strcache performance: lookups = 173 / hit rate = 59%
 # hash-table stats:
 # Load=70/8192=1%, Rehash=0, Collisions=0/173=0%
-# Finished Make data base on Sun Jun 19 13:55:20 2022
+# Finished Make data base on Mon Jun 20 04:36:06 2022
 
  
