@@ -17,6 +17,6 @@ jobs:
           go get 
           go test ./...
       - name: Run coverage
-        run: go fmt ./... -race -coverprofile=coverage.txt -covermode=atomic
+        run: go fmt -race -coverprofile=coverage.txt -covermode=atomic
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
