@@ -1,6 +1,6 @@
-# !!!WIP!!!
+<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="left" />
 
-# Toshiki's 自动化代理池
+<h1>俊樹のProxypool</h1>
 
 >自动爬取SS、SSR、vmess、trojan node信息，并将其 "本地化/集成" 到web面板中以方便使用。
 
@@ -36,6 +36,10 @@
     <img src="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml/badge.svg">
   </a>
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/andatoshiki/toshiki-proxypool?label=issues&logo=github">
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_small" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=small"/></a>
+      <a href="https://codecov.io/gh/andatoshiki/toshiki-proxypool">
+        <img src="https://codecov.io/gh/andatoshiki/toshiki-proxypool/branch/master/graph/badge.svg?token=X9A19Q2HXS"/>
+      </a>
 </p>
 
 ## 先看我！！！
@@ -99,4 +103,47 @@ make
 
 ### 下载预编译程序
 
-从这里下载预编译好的程序 [releas
+从这里下载预编译好的程序 
+[![GitHub release](https://img.shields.io/github/release/andatoshiki/toshiki-proxypool.svg)](https://github.com/andatoshiki/toshiki-proxypool/releases)
+[release](https://github.com/andatoshiki/toshiki-proxypool/releases)。
+
+### 使用docker
+
+```sh
+docker pull docker.pkg.github.com/andatoshiki/toshiki-proxypool/proxypool:latest
+```
+
+## 使用
+
+运行该程序需要具有访问完整互联网的能力。
+
+### 修改配置文件
+
+首先修改 config.yaml 中的必要配置信息。带有默认值的字段均可不填写。完整的配置选项见[配置文件说明](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)
+
+### 启动程序
+
+使用 `-c` 参数指定配置文件路径，支持http链接
+
+```shell
+proxypool -c ./config/config.yaml
+```
+
+如果需要部署到VPS，更多细节请[查看wiki](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%83%A8%E7%BD%B2%E5%88%B0VPS-Step-by-Step)。
+
+## Clash配置文件
+
+远程部署时Clash配置文件访问：https://domain/clash/config
+
+本地运行时Clash配置文件访问：http://127.0.0.1:[端口]/clash/localconfig
+
+## 本地检查节点可用性
+
+此项非必须。为了提高实际可用性，可选择增加一个本地服务器，检测远程proxypool节点在本地的可用性并提供配置，见[proxypoolCheck](https://github.com/andatoshiki/toshiki-proxypoolCheck)。
+
+## 截图
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_shield)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_large)
