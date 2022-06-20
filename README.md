@@ -1,6 +1,18 @@
-<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="left" />
+<div>
+<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="center" />
+<h1>andatoshiki＇s Proxypool</h1>
+<p align="center">
+    <a >simple and fast</a>
+    <br />
+    <a href="#"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a>English</a>
+    ·
+    <a href="/README.zh-cn.md">简体中文</a>
+  </p>
 
-<h1>俊樹のProxypool</h1>
+</div>
 
 > The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan!
 <!--Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
@@ -42,6 +54,7 @@
       </a>
 </p>
 
+<!-- 这里需要添加目录 -->
 ## Read Before You Proceed
 
 >**Note**: Note that this project was **originally** released by **[sansui233](https://github.com/Sansui233/proxypool)** licensed under **[GNU](https://www.gnu.org/licenses/licenses.en.html)** for project derivational development and distribution; As required by original developers, project content contained under [proxypool](https://github.com/Sansui233/proxypool) and its affiliates **MUST** be copyleft yet pointing the credit of the original developer. *Hence this project and its assets in contained is a new branch & version published and secondarily developed from the original project*, please understand and ensure copywrites are **pointing the original author** for your own development.
@@ -74,18 +87,33 @@ Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node cra
 ### 
 
 Click the button below and fill in the basic information
-点击按钮进入部署页面，填写基本信息然后运行
+
 
 其中 `DOMAIN` 需要填写为你需要绑定的域名，`CONFIG_FILE` 需要填写你的配置文件路径。
+<!-- 机翻建议
+Where `DOMAIN` needs to be filled in as the domain name you need to bind, and `CONFIG_FILE` needs to be filled in as the path to your configuration file.
+ -->
 
 > heroku app域名为appname.herokuapp.com。项目内配置文件为./config/config.yaml
+<!-- 机翻建议
+The heroku app domain name is appname.herokuapp.com and the project configuration file is . /config/config.yaml
+ -->
 
 配置文件模板见 `config/config.yaml` 文件，可选项区域均可不填。完整配置选项请查看[配置文件说明](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)。
+<!-- 机翻建议
+The configuration file template can be found in the `config/config.yaml` file, and the optional fields can be left unfilled. For complete configuration options, see [configuration file description].
+ -->
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 > 因为爬虫程序需要持续运行，所以至少选择 $7/月 的配置
 > 免费配置长时间无人访问会被heroku强制停止
+<!-- 机翻建议
+Because the crawler needs to run continuously, choose at least the $7/month configuration 
+The free configuration will be forced to stop by heroku if no one accesses it for a long time
+ -->
+
 
 ### 从源码编译
 
@@ -111,7 +139,7 @@ make
 
 从这里下载预编译好的程序 [release](https://github.com/andatoshiki/toshiki-proxypool/releases)。
 
-### 使用docker
+### use docker
 
 ```sh
 docker pull docker.pkg.github.com/andatoshiki/toshiki-proxypool/proxypool:latest
@@ -135,6 +163,19 @@ proxypool -c ./config/config.yaml
 
 如果需要部署到VPS，更多细节请[查看wiki](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%83%A8%E7%BD%B2%E5%88%B0VPS-Step-by-Step)。
 
+<!-- 机翻建议
+Using
+The ability to access the full Internet is required to run the program.
+
+Modifying the configuration file
+First modify the necessary configuration information in config.yaml. Any fields with default values can be left blank. See the configuration file description for complete configuration options
+
+Starting the application
+Use the -c parameter to specify the path to the configuration file, which supports http links
+
+proxypool -c . /config/config.yaml
+If you need to deploy to a VPS, see the wiki for more details.
+ -->
 ## Clash配置文件
 
 远程部署时Clash配置文件访问：https://domain/clash/config
@@ -145,7 +186,19 @@ proxypool -c ./config/config.yaml
 
 此项非必须。为了提高实际可用性，可选择增加一个本地服务器，检测远程proxypool节点在本地的可用性并提供配置，见[proxypoolCheck](https://github.com/andatoshiki/toshiki-proxypoolCheck)。
 
-## 截图
+<!-- 机翻建议
+Select another target language
+Clash configuration file
+Clash configuration file access when deployed remotely: https://domain/clash/config
+
+Local runtime Clash configuration file access: http://127.0.0.1:[port]/clash/localconfig
+
+Check node availability locally
+This item is not required. To improve actual availability, an optional local server can be added to check the local availability of remote proxypool nodes and provide configuration, see proxypoolCheck
+ -->
+
+## screenshot
+![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_shield)
