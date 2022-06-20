@@ -2,6 +2,17 @@
 <img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="left" />
 
 <h1>俊樹のProxypool</h1>
+<p align="center">
+    自动爬取，高效，快速!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>前往浏览文档 »</strong></a>
+    <br />
+    <br />
+    <a href="#">简体中文</a>
+    ·
+    <a href="/README.md">English</a>
+  </p>
+</div>
 
 >自动爬取SS、SSR、vmess、trojan node信息，并将其 "本地化/集成" 到web面板中以方便使用。
 
@@ -204,6 +215,8 @@ proxypool -c ./config/config.yaml
 <div id="7"></div>
 
 ## 截图
+![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
+
 
 <div id="8"></div>
 
