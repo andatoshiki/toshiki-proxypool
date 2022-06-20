@@ -8,7 +8,7 @@
     <a href="#"><strong>前往浏览文档 »</strong></a>
     <br />
     <br />
-    <a href="#">简体中文</a>
+    <a>简体中文</a>
     ·
     <a href="/README.md">English</a>
   </p>
