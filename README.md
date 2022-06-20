@@ -1,6 +1,19 @@
-<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="left" />
+<div>
+<p align="center">
 
-<h1>俊樹のProxypool</h1>
+<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="center" />
+<h1>andatoshiki＇s Proxypool</h1>
+    <a>simple and fast</a>
+    <br />
+    <a href="#"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a>English</a>
+    ·
+    <a href="/README.zh-cn.md">简体中文</a>
+  </p>
+
+</div>
 
 > The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan!
 <!--Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
