@@ -62,8 +62,7 @@
 <li><a href="#3.2">从源码编译</a></li>
 <li><a href="#3.3">下载预编译程序</a></li>
 <li><a href="#3.4">使用docker</a></li>
-    
-    <li><a href="#4</a>使用</li>
+    <li><a href="#4>使用</a></li>
 <ul>
 <li><a href="#4.1">修改配置文件</a></li></ul>
 <ul>
