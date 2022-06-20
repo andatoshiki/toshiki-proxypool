@@ -2,6 +2,17 @@
 <img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="left" />
 
 <h1>俊樹のProxypool</h1>
+<p align="center">
+    自动爬取，高效，快速!
+    <br />
+    <a href="#"><strong>前往浏览文档 »</strong></a>
+    <br />
+    <br />
+    <a>简体中文</a>
+    ·
+    <a href="/README.md">English</a>
+  </p>
+</div>
 
 >自动爬取SS、SSR、vmess、trojan node信息，并将其 "本地化/集成" 到web面板中以方便使用。
 
@@ -61,13 +72,14 @@
        <li><a href="#3.1">Heroku</a></li>
 <li><a href="#3.2">从源码编译</a></li>
 <li><a href="#3.3">下载预编译程序</a></li>
-<li><a href="#3.4">使用docker</a></li>
-    <li><a href="#4>使用</a></li>
+<li><a href="#3.4">使用docker</a></li></ul></li>
+    <li>
+<a href="#4> 使用</a>
 <ul>
-<li><a href="#4.1">修改配置文件</a></li></ul>
-<ul>
+<li><a href="#4.1">修改配置文件</a></li>
 <li><a href="#4.2">启动程序</a></li>
 </ul>
+</li>
     <li><a href="#5">Clash配置文件</a></li>
     <li><a href="#6">本地检查节点可用性</a></li>
 <li><a href="#7">截图</a></li>
@@ -152,7 +164,6 @@ make
 
 从这里下载预编译好的程序 
 [![GitHub release](https://img.shields.io/github/release/andatoshiki/toshiki-proxypool.svg)](https://github.com/andatoshiki/toshiki-proxypool/releases)
-[release](https://github.com/andatoshiki/toshiki-proxypool/releases)。
 
 
 <div id="3.4"></div>
@@ -204,6 +215,8 @@ proxypool -c ./config/config.yaml
 <div id="7"></div>
 
 ## 截图
+![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
+
 
 <div id="8"></div>
 
