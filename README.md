@@ -1,7 +1,5 @@
 <div>
-
-
-<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="center"/>
+<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="center" />
 <h1>andatoshiki＇s Proxypool</h1>
 <p align="center">
     <a >simple and fast</a>
