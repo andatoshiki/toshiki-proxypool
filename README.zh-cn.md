@@ -5,7 +5,7 @@
 <p align="center">
     自动爬取，高效，快速!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>前往浏览文档 »</strong></a>
+    <a href="#"><strong>前往浏览文档 »</strong></a>
     <br />
     <br />
     <a href="#">简体中文</a>
