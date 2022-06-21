@@ -9,7 +9,7 @@
     <br />
     <a>English</a>
     ·
-    <a href="/README.zh-cn.md">简体中文</a>
+    <a href="/README.zh-cn.MD">简体中文</a>
   </p>
 
 </div>
@@ -94,8 +94,7 @@ Where `DOMAIN` needs to be filled in as the domain name you need to bind, and "C
 <!-- 机翻建议
 The heroku app domain name is appname.herokuapp.com and the project configuration file is . /config/config.yaml
  -->
-
-配置文件模板见 `config/config.yaml` 文件，可选项区域均可不填。完整配置选项请查看[配置文件说明](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)。
+configuration file template can be found in the the `config / config.yaml` file, while optional fields can be retained. For full configuration options, see [Profile Description](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)。
 <!-- 机翻建议
 The configuration file template can be found in the `config/config.yaml` file, and the optional fields can be left unfilled. For complete configuration options, see [configuration file description].
  -->
