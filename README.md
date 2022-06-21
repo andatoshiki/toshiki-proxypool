@@ -88,11 +88,7 @@ Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node cra
 
 Click the button below and fill in the basic information
 
-
-其中 `DOMAIN` 需要填写为你需要绑定的域名，`CONFIG_FILE` 需要填写你的配置文件路径。
-<!-- 机翻建议
-Where `DOMAIN` needs to be filled in as the domain name you need to bind, and `CONFIG_FILE` needs to be filled in as the path to your configuration file.
- -->
+Where `DOMAIN` needs to be filled in as the domain name you need to bind, and "CONFIG _ FILE" need to be filled in as the path of the configuration file.
 
 > heroku app域名为appname.herokuapp.com。项目内配置文件为./config/config.yaml
 <!-- 机翻建议
