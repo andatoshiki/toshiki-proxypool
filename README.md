@@ -13,7 +13,7 @@
     <br />
     <a>English</a>
     ·
-    <a href="/README.zh-in.MD">简体中文</a>
+    <a href="/README.zh-cn.MD">简体中文</a>
   </p>
 
 </div>
