@@ -60,7 +60,42 @@
       <img src="https://data.jsdelivr.com/v1/package/gh/andatoshiki/toshiki-proxypool-ui/badge">
 </p>
 
-<!-- 这里需要添加目录 -->
+<!-- 
+
+这里需要添加目录 
+<details>
+  <summary>展开目录</summary>
+  <ol>
+    <li><a href="#1">先看我！！！</a></li>
+    <li>
+      <a href="#2">我是谁？</a>
+      <ul>
+        <li><a href="#2.1">它能做什么？</a></li>
+      </ul>
+    </li>
+    <li><a href="#3">安装</a></li>
+     <ul>
+       <li><a href="#3.1">Heroku</a></li>
+<li><a href="#3.2">从源码编译</a></li>
+<li><a href="#3.3">下载预编译程序</a></li>
+<li><a href="#3.4">使用docker</a></li></ul></li>
+    <li>
+<a href="#4> 使用</a>
+<ul>
+<li><a href="#4.1">修改配置文件</a></li>
+<li><a href="#4.2">启动程序</a></li>
+</ul>
+</li>
+    <li><a href="#5">Clash配置文件</a></li>
+    <li><a href="#6">本地检查节点可用性</a></li>
+<li><a href="#7">截图</a></li>
+<li><a href="#8">License</a></li>
+  </ol>
+</details>
+
+-->
+
+
 ## Read Before You Proceed
 
 >**Note**: Note that this project was **originally** released by **[sansui233](https://github.com/Sansui233/proxypool)** licensed under **[GNU](https://www.gnu.org/licenses/licenses.en.html)** for project derivational development and distribution; As required by original developers, project content contained under [proxypool](https://github.com/Sansui233/proxypool) and its affiliates **MUST** be copyleft yet pointing the credit of the original developer. *Hence this project and its assets in contained is a new branch & version published and secondarily developed from the original project*, please understand and ensure copywrites are **pointing the original author** for your own development.
