@@ -1,4 +1,4 @@
-<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="left" />
+<img src="https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png" alt="logo" width="160" height="160" align="left" />
 
 <h1>俊樹のProxypool</h1>
 
