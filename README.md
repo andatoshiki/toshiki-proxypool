@@ -13,13 +13,13 @@
     <br />
     <a>English</a>
     ·
-    <a href="/README.zh-cn.MD">简体中文</a>
+    <a href="/README.zh-in.MD">简体中文</a>
   </p>
 
 </div>
 
 > The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan!
-<!--Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
+<!--Automatically crawl SS, SSR, vmess, trojan node info from the web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
 
 <!-- add translation here later on with href links for easier access -->
 
@@ -106,7 +106,7 @@
 
 ## What is [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/)?
 
-Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node crawler written in GoLang and complied into a compiled into a Linux image for VPS deployment, you can also try deployment for Heroku, completely free to use, see the next section for further info.
+Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node crawler written in GoLang and compiled into a compiled into a Linux image for VPS deployment, you can also try deployment for Heroku, completely free to use, see the next section for further info.
 
 ### What does it support?
 
@@ -173,7 +173,8 @@ make
 
 ### 下载预编译程序
 
-从这里下载预编译好的程序 [release](https://github.com/andatoshiki/toshiki-proxypool/releases)。
+从这里下载预编译好的程序 
+[![GitHub release](https://img.shields.io/github/release/andatoshiki/toshiki-proxypool.svg)](https://github.com/andatoshiki/toshiki-proxypool/releases)
 
 ### use docker
 
