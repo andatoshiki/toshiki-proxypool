@@ -1,6 +1,10 @@
-<div>
-<img src="https://fastly.jsdelivr.net/npm/skx@0.1.3/img/uim-logo-round.png" alt="logo" width="130" height="130" align="center" />
-<h1>andatoshiki＇s Proxypool</h1>
+<img src="https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png" alt="logo" width="160" height="160" align="left" />
+
+<h1>俊樹のProxypool</h1>
+
+> The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan!
+
+<!--
 <p align="center">
     <a >simple and fast</a>
     <br />
@@ -18,6 +22,7 @@
 <!--Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
 
 <!-- add translation here later on with href links for easier access -->
+
 <br />
 
 <p align="center">
@@ -52,6 +57,7 @@
       <a href="https://codecov.io/gh/andatoshiki/toshiki-proxypool">
         <img src="https://codecov.io/gh/andatoshiki/toshiki-proxypool/branch/master/graph/badge.svg?token=X9A19Q2HXS"/>
       </a>
+      <img src="https://data.jsdelivr.com/v1/package/gh/andatoshiki/toshiki-proxypool-ui/badge">
 </p>
 
 <!-- 这里需要添加目录 -->
