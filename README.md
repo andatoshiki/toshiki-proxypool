@@ -1,4 +1,4 @@
-<img src="https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png" alt="logo" width="160" height="160" align="left" />
+<img src="https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png" alt="logo" width="140" height="140" align="left" />
 
 <h1>俊樹のProxypool</h1>
 
