@@ -24,7 +24,6 @@
 <!-- add translation here later on with href links for easier access -->
 
 <br />
-<br />
 
 <!-- badges starts -->
 [![wakatime status](https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8.svg)](https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8)
