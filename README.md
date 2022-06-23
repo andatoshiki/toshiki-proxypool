@@ -24,6 +24,7 @@
 <!-- add translation here later on with href links for easier access -->
 
 <br />
+<br />
 
 <!-- badges starts -->
 [![wakatime status](https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8.svg)](https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8)
@@ -44,10 +45,6 @@
 
 >**Note**: Note that this project was **originally** released by **[sansui233](https://github.com/Sansui233/proxypool)** licensed under **[GNU](https://www.gnu.org/licenses/licenses.en.html)** for project derivational development and distribution; As required by original developers, project content contained under [proxypool](https://github.com/Sansui233/proxypool) and its affiliates **MUST** be copyleft yet pointing the credit of the original developer. *Hence this project and its assets in contained is a new branch & version published and secondarily developed from the original project*, please understand and ensure copywrites are **pointing the original author** for your own development.
 
-- ***The original author is no longer maintaining the original project, thus this project exists.***
-
-- **Issues function will be disabled in this repository for preventing further affairs and issues from happening.**
-
 ## What is [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/)?
 
 Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node crawler written in GoLang and complied into a compiled into a Linux image for VPS deployment, you can also try deployment for Heroku, completely free to use, see the next section for further info.
@@ -66,6 +63,12 @@ Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node cra
 - **🎠 Deployable**: Easy deployment, **VPS/Heroku/Local/Docker** deployment supported.
 - **🍔 Customizable**: Allowed to whitelist the countries to your demand.
 - ...
+
+## Why does [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/) exists?
+
+- ***The original author is no longer maintaining the original project, thus this project exists.***
+
+- **Issues function will be disabled in this repository for preventing further affairs and issues from happening.**
 
 ## Installation
 
