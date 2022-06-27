@@ -1,4 +1,4 @@
-<img src="https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png" alt="logo" width="160" height="160" align="left" />
+<img src="https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png" alt="logo" width="140" height="140" align="left" />
 
 <h1>俊樹のProxypool</h1>
 
@@ -25,40 +25,19 @@
 
 <br />
 
-<p align="center">
-  <!-- wakatime stats -->
-  <a href="https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8"><img src="https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8.svg" alt="wakatime"></a>
-  <!-- social info -->
-  <a href="https://t.me/awesomeandatoshiki">
-    <img src="https://img.shields.io/badge/Telegram-@andatoshiki-green?style=flat&logo=telegram"></img>
-  </a>
-  <!-- github action stats -->
-  <a href="https://github.com/andatoshiki/toshiki-proxypool/actions">
-    <img src="https://img.shields.io/github/workflow/status/andatoshiki/toshiki-proxypool/Go?style=flat" alt="Github Actions">
-  </a>
-  <!-- go report stats -->
-  <a href="https://goreportcard.com/report/github.com/andatoshiki/toshiki-proxypool">
-    <img src="https://goreportcard.com/badge/github.com/andatoshiki/toshiki-proxypool" alt="Go report card">
-  </a>
-  <!-- github release stats -->
-  <a href="https://github.com/andatoshiki/toshiki-proxypool/releases">
-    <img src="https://img.shields.io/github/release/andatoshiki/toshiki-proxypool/all.svg?style=flat">
-  </a>
-  <!-- codeql workflow stats -->
-  <a href="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml">
-    <img src="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml/badge.svg" alt="CodeQl workflow status">
-  </a>
-  <!-- docker image build and publish workflow stats -->
-  <a href="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml">
-    <img src="https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml/badge.svg">
-  </a>
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/andatoshiki/toshiki-proxypool?label=issues&logo=github">
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_small" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=small"/></a>
-      <a href="https://codecov.io/gh/andatoshiki/toshiki-proxypool">
-        <img src="https://codecov.io/gh/andatoshiki/toshiki-proxypool/branch/master/graph/badge.svg?token=X9A19Q2HXS"/>
-      </a>
-      <img src="https://data.jsdelivr.com/v1/package/gh/andatoshiki/toshiki-proxypool-ui/badge">
-</p>
+<!-- badges starts -->
+[![wakatime status](https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8.svg)](https://wakatime.com/badge/user/0fcd442a-865e-46f3-a0dd-ed1aa418da6b/project/9e775601-9ce8-4982-a1b8-ac352cf49df8)
+[![chat on telegram](https://img.shields.io/badge/Telegram-@andatoshiki-green?style=flat&logo=telegram)](https://t.me/awesomeandatoshiki)
+[![go built stats](https://img.shields.io/github/workflow/status/andatoshiki/toshiki-proxypool/Go?style=flat)](https://github.com/andatoshiki/toshiki-proxypool/actions)
+[![Github Actions](https://goreportcard.com/badge/github.com/andatoshiki/toshiki-proxypool)](https://goreportcard.com/report/github.com/andatoshiki/toshiki-proxypool)
+[![release](https://img.shields.io/github/release/andatoshiki/toshiki-proxypool/all.svg?style=flat)](https://github.com/andatoshiki/toshiki-proxypool/releases)
+[![codeql](https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/codeql-analysis.yml)
+[![docker build](https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml/badge.svg)](https://github.com/andatoshiki/toshiki-proxypool/actions/workflows/docker.yml)
+[![github issues](https://img.shields.io/github/issues/andatoshiki/toshiki-proxypool?label=issues&logo=github)](https://github.com/andatoshiki/toshiki-proxypool/issues)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_small)
+[![codecov](https://codecov.io/gh/andatoshiki/toshiki-proxypool/branch/master/graph/badge.svg?token=X9A19Q2HXS)](https://codecov.io/gh/andatoshiki/toshiki-proxypool)
+[![](https://data.jsdelivr.com/v1/package/gh/andatoshiki/toshiki-proxypool-ui/badge)](https://www.jsdelivr.com/package/gh/andatoshiki/toshiki-proxypool-ui)
+<!-- badges ends -->
 
 <!-- 
 
@@ -100,10 +79,6 @@
 
 >**Note**: Note that this project was **originally** released by **[sansui233](https://github.com/Sansui233/proxypool)** licensed under **[GNU](https://www.gnu.org/licenses/licenses.en.html)** for project derivational development and distribution; As required by original developers, project content contained under [proxypool](https://github.com/Sansui233/proxypool) and its affiliates **MUST** be copyleft yet pointing the credit of the original developer. *Hence this project and its assets in contained is a new branch & version published and secondarily developed from the original project*, please understand and ensure copywrites are **pointing the original author** for your own development.
 
-- ***The original author is no longer maintaining the original project, thus this project exists.***
-
-- **Issues function will be disabled in this repository for preventing further affairs and issues from happening.**
-
 ## What is [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/)?
 
 Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node crawler written in GoLang and compiled into a compiled into a Linux image for VPS deployment, you can also try deployment for Heroku, completely free to use, see the next section for further info.
@@ -120,6 +95,14 @@ Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node cra
 - **🎯 Convenient**: Serve direct config files for clash, surge for importation.
 - **🔮 Subscription**: Provide direct SS, SSR, vmess, sip002 subscription.
 - **🎠 Deployable**: Easy deployment, **VPS/Heroku/Local/Docker** deployment supported.
+- **🍔 Customizable**: Allowed to whitelist the countries to your demand.
+- ...
+
+## Why does [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/) exists?
+
+- ***The original author is no longer maintaining the original project, thus this project exists.***
+
+- **Issues function will be disabled in this repository for preventing further affairs and issues from happening.**
 
 ## Installation
 
