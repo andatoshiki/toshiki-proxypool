@@ -140,3 +140,25 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
  #### Chore
 
  - 📝 (Chores in `v0.0.12`): Fixed the demo site's broken CDN issues with this release, view the [demo site](https://proxypool.toshiki.top).
+
+### (Auto Generated Changelog) What's Changed What's Changed
+* build(deps): bump actions/upload-artifact from 2.2.1 to 3.1.0 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/29
+* build(deps): bump actions/stale from 04a1828bc18ada028d85a0252a47cd2963a91abe to 5 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/28
+* build(deps): bump docker/setup-qemu-action from 1 to 2 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/27
+* build(deps): bump actions/cache from 2 to 3 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/26
+* build(deps): bump docker/login-action from 1 to 2 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/25
+* Create zh_cnReadme.md by @DTpeel in https://github.com/andatoshiki/toshiki-proxypool/pull/32
+* doc(readme): fossa bot automatic pr merging for badge by @fossabot in https://github.com/andatoshiki/toshiki-proxypool/pull/31
+* chore: rm unecessities by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/34
+* feat(i18n): added corwdin setting file by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/35
+* style(toc): added toc and other updates for zh readme by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/38
+* refactor(readme): updated & optimized zh readme by @DTpeel in https://github.com/andatoshiki/toshiki-proxypool/pull/39
+* Translation suggestions & optimization by @DTpeel in https://github.com/andatoshiki/toshiki-proxypool/pull/42
+* build(deps): bump actions/checkout from 2 to 3 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/43
+* build(deps): bump actions/setup-go from 2 to 3 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/44
+
+### New Contributors
+* @DTpeel made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/32
+* @fossabot made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/31
+
+**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.1...v0.0.12
