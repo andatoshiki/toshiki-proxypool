@@ -139,4 +139,4 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 
  #### Chore
 
- - 📝 (Chores in `v0.0.12`): Fixed the demo site's broken CDN issues with this release, view the [demo site](https://proxypool.toshiki.top) with commit `[3](3)`
+ - 📝 (Chores in `v0.0.12`): Fixed the demo site's broken CDN issues with this release, view the [demo site](https://proxypool.toshiki.top).
