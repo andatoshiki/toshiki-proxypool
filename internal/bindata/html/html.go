@@ -347,18 +347,18 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"assets": &bintree{nil, map[string]*bintree{
-		"html": &bintree{nil, map[string]*bintree{
-			"clash-config-local.yaml": &bintree{assetsHtmlClashConfigLocalYaml, map[string]*bintree{}},
-			"clash-config.yaml":       &bintree{assetsHtmlClashConfigYaml, map[string]*bintree{}},
-			"clash.html":              &bintree{assetsHtmlClashHtml, map[string]*bintree{}},
-			"index.html":              &bintree{assetsHtmlIndexHtml, map[string]*bintree{}},
-			"shadowrocket.html":       &bintree{assetsHtmlShadowrocketHtml, map[string]*bintree{}},
-			"surge.conf":              &bintree{assetsHtmlSurgeConf, map[string]*bintree{}},
-			"surge.html":              &bintree{assetsHtmlSurgeHtml, map[string]*bintree{}},
+	"assets": {nil, map[string]*bintree{
+		"html": {nil, map[string]*bintree{
+			"clash-config-local.yaml": {assetsHtmlClashConfigLocalYaml, map[string]*bintree{}},
+			"clash-config.yaml":       {assetsHtmlClashConfigYaml, map[string]*bintree{}},
+			"clash.html":              {assetsHtmlClashHtml, map[string]*bintree{}},
+			"index.html":              {assetsHtmlIndexHtml, map[string]*bintree{}},
+			"shadowrocket.html":       {assetsHtmlShadowrocketHtml, map[string]*bintree{}},
+			"surge.conf":              {assetsHtmlSurgeConf, map[string]*bintree{}},
+			"surge.html":              {assetsHtmlSurgeHtml, map[string]*bintree{}},
 		}},
-		"static": &bintree{nil, map[string]*bintree{
-			"index.js": &bintree{assetsStaticIndexJs, map[string]*bintree{}},
+		"static": {nil, map[string]*bintree{
+			"index.js": {assetsStaticIndexJs, map[string]*bintree{}},
 		}},
 	}},
 }}
