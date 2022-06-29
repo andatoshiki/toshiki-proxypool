@@ -1,6 +1,6 @@
 # Changlog
 
-## `V0.0.1`
+## `V0.0.1` Release
 
 ### What's new in `v0.0.1`
 
@@ -74,7 +74,6 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 ### What's new in `v0.0.11-alpha`
 
 #### New Features
-
 - ✨(New in `v0.0.11`): Added country node speed white listing feature which is available to set through under `config.yml` file with the following configs,
 
   ```yml
@@ -95,6 +94,10 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
   - ([`5985923`](https://github.com/andatoshiki/toshiki-proxypool/commit/5985923))
   - ([`4ad6883`](https://github.com/andatoshiki/toshiki-proxypool/commit/4ad6883))
 
+#### Chore
+
+- 📝 (Chores in `v0.0.11-alpha`): Linted source files, added [`codecov.yml`](https://github.com/andatoshiki/toshiki-proxypool/blob/master/.github/workflows/codecov.yml) for checking code coverages.
+
 ###  What's Changed
 * build(deps): bump actions/upload-artifact from 2.2.1 to 3.1.0 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/29
 * build(deps): bump actions/stale from 04a1828bc18ada028d85a0252a47cd2963a91abe to 5 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/28
@@ -111,3 +114,29 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 * @fossabot made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/31
 
 **Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.1...v0.0.11-alpha
+
+## `V0.0.12` Release
+
+### What's new in `v0.0.12`
+
+#### New Features
+- ✨(New in `v0.0.12`): Published NPM packages for static files for fronted UI components of the proxypool program, both in GitHub NPM registry and NPMjs registry, this leads to the approach on CDN loading options +1 for more extendable CDN platform picking; see [andatoshiki/toshiki-proxypool-ui] for more. As well reformatted dir & folder layouting yet added minified version of the static files which allows the users have their own choice on picking CDN load types; but the reformat of the dirs caused CDN load issues on the two previous releases also the demo site, this will be expanded further in the issue section of `v0.0.12` release changelog.
+  - CDN platform 1: [UNPKG](https://www.unpkg.com/browse/@andatoshiki/toshiki-proxypool-ui@0.0.13/)
+  - CDN platform 2: [JsDrlivr](https://www.jsdelivr.com/package/gh/andatoshiki/toshiki-proxypool-ui)
+  - CDN platform 3: [JsDrlive but with NPM registry mirroring](https://cdn.jsdelivr.net/npm/@andatoshiki/toshiki-proxypool-ui@0.0.13/)
+- ✨(New in `v0.0.12`) Redesigned new logo/icons! :), check the following direct links to the logos for direct logo viewing!
+  - [UNPKG](https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png)
+  - [JsDrlivr](https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-proxypool-ui@master/assets/img/toshiki-proxypool-logo%40v0.0.13.png)
+
+  > Alternative with fastly CDN provider for JsDelivr if both of the link failed to response/load resources, https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-proxypool-ui@master/assets/img/toshiki-proxypool-logo%40v0.0.13.png
+
+#### Fixes
+
+- 🐛 (Bug in `v0.0.12`): Emergent fixes for altered CDN links in accordance with reconstruction of the static UI component npm packages within the program with an easy `go-bindata fix` for all static HTML file sources; note that this fix is **NOT** permanent, the UI component repo might be reconstructed in regard to the dirs/file names according to naming/structuring conventions, but by far, enjoy the latest release. :)
+- 🐛 (Bug in `v0.0.12`): Since [JsDelivr's](https://jsdelivr.com) assets domain `cdn.jsdelivr.com` which contains all the static resources from GitHub/NPMjs/Wordpress stored within has been partially censored in China mainland which caused timeouts on pinging as well as accessing static resources, the DNS of such domain has been hijacked along with SNI interference which caused unstable resource loading for the compiled program. Some solution has been tested with an urgent domain switch with `fastly.jsdelivr.com` seems turns the CDN back with China users; as the latest reports been spread the newest domain has also been affected yet resolved with facebook/twitter IPs by GFW again. Due to this unstable change of JsDelivr from time to time, developers of this project ultimately decided to rewrite the static components as an NPM package for CDN fetching on [unpkg](https://www.unpkg.com), another similar CDN provider platform but only targeting everything on NPM (read more [here](https://www.unpkg.com) regarding their official docs), we'll try switch the CDN provider form JsDelivr to UNPKG from a short period to see its performance. By far the latency pinged with online testing tools with different Chinese mobile data provider seems even less than the original unblocked JsDelivr CDN links.
+  - (Some extra words from developers): The main reason why we are assuming the reason why GFW is banning JsDelivr constantly is mostly because it forms as a proxy from fetching data files from GitHub which is what Chinese MIIT authorities do not want to see; the Chinese devops community are largely "advocating" some other Git servicing platforms such as Gitee or Coding... which requires an official ID/document scan for identity verification in order to further access its affiliated developing resources. But yet most Chinese developers are definitely not comfortable with revealing their own personal infos towards the government they may trust or may not trust. Finally the blockage of JsDelivr take place with a long termed ban. :(
+  - Reed more infos at [jsdelivr/jsdelivr #18292](https://github.com/jsdelivr/jsdelivr/issues/18392), or search the key word `China` under the issue tab of [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr) repository.
+
+ #### Chore
+
+ - 📝 (Chores in `v0.0.12`): Fixed the demo site's broken CDN issues with this release, view the [demo site](https://proxypool.toshiki.top) with commit `[3](3)`
