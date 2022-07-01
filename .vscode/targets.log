@@ -6,12 +6,10 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 30 03:18:59 2022
+# Make data base, printed on Sat Jul 02 03:52:49 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -27,7 +25,7 @@ BINDIR = bin
 # environment
 LOCALAPPDATA = C:\Users\andatoshiki\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2ca77366-e76b-4756-9834-6063b3cc9f89-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-233e1cee-d11e-410d-8457-90d2fb65c67c-sock
 # environment
 VSCODE_CWD = D:\Alex\Resources\GitHub\toshiki-proxypool
 # environment
@@ -51,11 +49,9 @@ DOKANLIBRARY1_LIBRARYPATH_X64 = D:\Alex\Apps\Doken Library\lib\
 # environment
 ACLOCAL_PATH = D:\Alex\Apps\Git\mingw64\share\aclocal;D:\Alex\Apps\Git\usr\share\aclocal
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10940_LKMPQRPVMCFSXQYG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15420_SSPGSYSVGPQAURHC
 # environment
 ORIGINAL_TEMP = C:/Users/ANDATO~1/AppData/Local/Temp
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -68,6 +64,8 @@ PWD = D:/Alex/Resources/GitHub/toshiki-proxypool
 HOSTNAME = DESKTOP-43RSN5L
 # environment
 PS1 = \[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+# environment
+OLDPWD = D:/Alex/Resources/GitHub
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # environment
@@ -127,7 +125,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 10940
+VSCODE_PID = 15420
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -292,8 +290,6 @@ PLINK_PROTOCOL = ssh
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
-# environment
-SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -303,11 +299,12 @@ PROCESSOR_REVISION = 8e0c
 # environment
 TERM_PROGRAM_VERSION = 3.5.2
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineInte 
+l
 # makefile (from 'Makefile', line 6)
 PLATFORM_LIST = darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64
 # variable set hash-table stats:
-# Load=148/1024=14%, Rehash=0, Collisions=23/186=12%
+# Load=146/1024=14%, Rehash=0, Collisions=22/184=12%
 
 # Pattern-specific Variable Values
 
@@ -315,7 +312,7 @@ PLATFORM_LIST = darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux
 
 # Directories
 
-# . (key d:/Alex/Resources/GitHub/toshiki-proxypool, mtime 1655748985): 33 files, no impossibilities.
+# . (key d:/Alex/Resources/GitHub/toshiki-proxypool, mtime 1656533593): 33 files, no impossibilities.
 
 # 33 files, no impossibilities in 1 directories.
 
@@ -384,7 +381,8 @@ linux-armv5:
 
 releases: darwin-amd64.gz linux-386.gz linux-amd64.gz linux-armv5.gz linux-armv6.gz linux-armv7.gz linux-armv8.gz linux-mips-softfloat.gz linux-mips-hardfloat.gz linux-mipsle-softfloat.gz linux-mipsle-hardfloat.gz linux-mips64.gz linux-mips64le.gz freebsd-386.gz freebsd-amd64.gz
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Modification time never 
+ checked.
 #  File has not been updated.
 
 # Not a target:
@@ -645,12 +643,12 @@ linux-amd64:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 72 / storage = 820 B / avg = 11 B
-# current buf: size = 8174 B / used = 820 B / count = 72 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 72 / storage = 822 B / avg = 11 B
+# current buf: size = 8174 B / used = 822 B / count = 72 / avg = 11 B
 
 # strcache performance: lookups = 175 / hit rate = 58%
 # hash-table stats:
 # Load=72/8192=1%, Rehash=0, Collisions=0/175=0%
-# Finished Make data base on Thu Jun 30 03:18:59 2022
+# Finished Make data base on Sat Jul 02 03:52:49 2022
 
  
