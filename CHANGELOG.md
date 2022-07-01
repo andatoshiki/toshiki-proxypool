@@ -5,7 +5,7 @@
 ### What's new in `v0.0.1`
 
 #### New Features
-- ✨(New in `v0.0.1`): Docker image published via the latest [@ghcr](https://ghcr.io) github docker registry, replaced the depreciated docker.pkg.github.com regitry url to the shortened domain ghcr.io, docker image automatically published along with the Linux executable binaries targeting different platforms, the following the list provides the supporting platforms. (*Note to developers: the supported platform lists are also available in [Makefile](https://github.com/andatoshiki/toshiki-proxypool/blob/master/Makefile), PRs welcomeed for adding and adjusting more supporting lists*)
+- ✨(New in `v0.0.1`): Docker image published via the latest [@ghcr](https://ghcr.io) github docker registry, replaced the depreciated docker.pkg.github.com registry url to the shortened domain ghcr.io, docker image automatically published along with the Linux executable binaries targeting different platforms, the following the list provides the supporting platforms. (*Note to developers: the supported platform lists are also available in [Makefile](https://github.com/andatoshiki/toshiki-proxypool/blob/master/Makefile), PRs welcomeed for adding and adjusting more supporting lists*)
   - darwin-amd64
   - linux-386
   - linux-amd64
@@ -162,3 +162,24 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 * @fossabot made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/31
 
 **Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.1...v0.0.12
+
+## `v0.0.12-alpha` Release
+
+### What's new in `v0.0.12-alpha`
+
+#### New Features
+
+- ✨(New in `v0.0.12-alpha`): Bumped `GeoLite2-City.mmdb` MaxMind's GeoLite2 Country, City, and ASN databases to the latest version regarding to [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb).
+
+- ✨(New in `v0.0.12-alpha`): Updated more supported Linux platform options in final go build for executable binary outputs, conducive to the users whom have peculiar preference on different Linux distros. The following lists are the lately added platforms for this application/program at current.
+  - darwin-amd64-v3
+	- darwin-arm64
+	- freebsd-amd64-v3
+	- freebsd-arm64
+
+### (Auto Generated Changelog) What's Changed
+* build(deps): bump gorm.io/gorm from 1.23.6 to 1.23.7 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/51
+* build(deps): bump github.com/cloudflare/cloudflare-go from 0.41.0 to 0.43.0 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/52
+
+
+**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.12...v0.0.12-alpha
