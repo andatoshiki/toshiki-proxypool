@@ -1,12 +1,12 @@
 package cloudflare
 
 import (
+	"context"
 	"fmt"
 	"log"
-	"context"
 
-	"github.com/cloudflare/cloudflare-go"
 	"github.com/andatoshiki/toshiki-proxypool/config"
+	"github.com/cloudflare/cloudflare-go"
 )
 
 func test() {

@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon Jun 20 04:36:06 2022
+# Make data base, printed on Thu Jun 30 03:18:59 2022
 
 # Variables
 
@@ -21,22 +20,26 @@ JAVA_HOME = C:\Program Files (x86)\Java\jdk1.8.0_71
 LC_ALL = C
 # environment
 USERPROFILE = C:\Users\andatoshiki
+# environment
+TMPDIR = C:\Users\ANDATO~1\AppData\Local\Temp
 # makefile (from 'Makefile', line 2)
 BINDIR = bin
 # environment
 LOCALAPPDATA = C:\Users\andatoshiki\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7efd887b-c1a6-46b7-8886-016d7e7d85c5-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2ca77366-e76b-4756-9834-6063b3cc9f89-sock
 # environment
-VSCODE_CWD = D:\Alex\Apps\VsCode
+VSCODE_CWD = D:\Alex\Resources\GitHub\toshiki-proxypool
 # environment
-CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+MINGW_PREFIX = D:/Alex/Apps/Git/mingw64
+# environment
+CHOCOLATEYINSTALL = D:\Alex\Resources\chocopkgs
 # environment
 SYSTEMROOT = C:\windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\SharePoint Online Management Shell\
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\SharePoint Online Management Shell\
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # environment
@@ -46,15 +49,25 @@ GOPATH = D:\Alex\Resources\GitHub\GoWorks
 # environment
 DOKANLIBRARY1_LIBRARYPATH_X64 = D:\Alex\Apps\Doken Library\lib\
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22768_GUJLEENSIDIBWEWF
+ACLOCAL_PATH = D:\Alex\Apps\Git\mingw64\share\aclocal;D:\Alex\Apps\Git\usr\share\aclocal
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10940_LKMPQRPVMCFSXQYG
+# environment
+ORIGINAL_TEMP = C:/Users/ANDATO~1/AppData/Local/Temp
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
+# environment
+PWD = D:/Alex/Resources/GitHub/toshiki-proxypool
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+HOSTNAME = DESKTOP-43RSN5L
+# environment
+PS1 = \[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # environment
@@ -62,7 +75,9 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = D:\Alex\Apps\VsCode\data\user-data\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = D:\Alex\Apps\VsCode\data\user-data\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+SSH_ASKPASS = D:/Alex/Apps/Git/mingw64/bin/git-askpass.exe
 # environment
 LANG = C
 # default
@@ -76,6 +91,8 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
 # environment
+PKG_CONFIG_PATH = D:\Alex\Apps\Git\mingw64\lib\pkgconfig;D:\Alex\Apps\Git\mingw64\share\pkgconfig
+# environment
 INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
 # environment
 ONEDRIVE = D:\Alex\Resources\Onedrive
@@ -85,6 +102,8 @@ CURDIR := d:/Alex/Resources/GitHub/toshiki-proxypool
 VSCODE_PIPE_LOGGING = true
 # environment
 DOKANLIBRARY1_LIBRARYPATH_X86 = D:\Alex\Apps\Doken Library\x86\lib\
+# environment
+MSYSTEM_CARCH = x86_64
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -108,35 +127,43 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 22768
+VSCODE_PID = 10940
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
 POSH_THEMES_PATH = C:\Users\Alex Shao\AppData\Local\Programs\oh-my-posh\themes
+# environment
+MINGW_CHOST = x86_64-w64-mingw32
 # automatic
 *F = $(notdir $*)
+# environment
+MANPATH = D:\Alex\Apps\Git\mingw64\local\man;D:\Alex\Apps\Git\mingw64\share\man;D:\Alex\Apps\Git\usr\local\man;D:\Alex\Apps\Git\usr\share\man;D:\Alex\Apps\Git\usr\man;D:\Alex\Apps\Git\share\man
 # automatic
-<D = $(patsubst %/,% 
-,$(patsubst %\,%,$(dir $<)))
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := Windows32
 # environment
 PROGRAMDATA = C:\ProgramData
-# default
-SHELL := sh.exe
+# environment
+INFOPATH = D:\Alex\Apps\Git\usr\local\info;D:\Alex\Apps\Git\usr\share\info;D:\Alex\Apps\Git\usr\info;D:\Alex\Apps\Git\share\info
+# makefile
+SHELL = D:/Alex/Apps/Git/usr/bin/sh.exe
+# environment
+ORIGINAL_PATH = D:\Alex\Apps\Git\mingw64\bin;D:\Alex\Apps\Git\usr\bin;C:\Users\andatoshiki\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_71\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;D:\Alex\Apps\Git\cmd;D:\Alex\Apps\Hugo;C:\Program Files\Common Files\Autodesk Shared;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;D:\Alex\Apps\VSCodium\bin;D:\Alex\Apps\TexLive\texlive\2021\bin\win32;C:\Program Files\Wolfram Research\WolframScript;D:\Alex\Apps\PanDocs;C:\Program Files\dotnet;D:\Alex\Apps\Pandoc;D:\Alex\Apps\RClone;%GOPATH%\bin;%GOPATH%\bin;D:\Alex\Apps\GnuWin32\GetGnuWin32\bin;D:\Alex\Apps\gcc\bin;%GCC_PATH%\bin;D:\Alex\Apps\yarn\bin;C:\Users\andatoshiki\AppData\Roaming\npm;D:\Alex\Resources\GitHub\YoutubeDL-Material\node_modules\@angular\cli;C:\ProgramData\chocolatey\bin;D:\Alex\Apps\nodejs;D:\Alex\Apps\nodejs;D:\Alex\blast-2.12.0+\bin;D:\Alex\Apps\Python\Scripts;D:\Alex\Apps\Python;C:\Users\Alex Shao\AppData\Local\Microsoft\WindowsApps;D:\Alex\Apps\PyCharm 2020.3.3\bin;C:\Users\Alex Shao\AppData\Local\GitHubDesktop\bin;D:\Alex\Apps\MikTeX\miktex\bin\x64;D:\Alex\Apps\Markdown Monster;C:\Users\Alex Shao\AppData\Local\atom\bin;D:\Alex\Apps\GitHubDesktopPortable\App\GitHubDesktop\bin;C:\Users\Alex Shao\AppData\Roaming\npm;C:\Users\Alex Shao\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Alex Shao\AppData\Local\Keybase;D:\Alex\Apps\Go\bin;D:\Alex\Resources\GitHub\GoWorks\bin;D:\Alex\Apps\aria2;D:\Alex\Apps\odupload;C:\Users\andatoshiki\AppData\Local\Yarn\bin;D:\Alex\Apps\VsCode
 # environment
 HOMEPATH = \Users\andatoshiki
 # default
 MAKECMDGOALS := all
 # environment
+SHLVL = 1
+# environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # makefile (from 'Makefile', line 74)
 gz_releases = $(addsuffix .gz, $(PLATFORM_LIST))
 # environment
-COMSPEC = C:\windows\system32\cmd.e 
-xe
+COMSPEC = C:\windows\system32\cmd.exe
 # environment
 WINDIR = C:\windows
 # environment
@@ -144,7 +171,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = D:\Alex\Apps\Go\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_71\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;D:\Alex\Apps\Git\cmd;D:\Alex\Apps\Hugo;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\Alex\Apps\VSCodium\bin;D:\Alex\Apps\TexLive\texlive\2021\bin\win32;C:\Program Files\Wolfram Research\WolframScript\;D:\Alex\Apps\PanDocs\;C:\Program Files\dotnet\;D:\Alex\Apps\Pandoc\;D:\Alex\Apps\RClone\;%GOPATH%\bin;%GOPATH%\bin;D:\Alex\Apps\GnuWin32\GetGnuWin32\bin;D:\Alex\Apps\gcc\bin;%GCC_PATH%\bin;D:\Alex\Apps\yarn\bin\;C:\Users\andatoshiki\AppData\Roaming\npm;D:\Alex\Resources\GitHub\YoutubeDL-Material\node_modules\@angular\cli;C:\ProgramData\chocolatey\bin;D:\Alex\Apps\nodejs\;D:\Alex\Apps\nodejs;D:\Alex\blast-2.12.0+\bin;D:\Alex\Apps\Python\Scripts\;D:\Alex\Apps\Python\;C:\Users\Alex Shao\AppData\Local\Microsoft\WindowsApps;D:\Alex\Apps\PyCharm 2020.3.3\bin;C:\Users\Alex Shao\AppData\Local\GitHubDesktop\bin;D:\Alex\Apps\Hugo;D:\Alex\Apps\MikTeX\miktex\bin\x64\;D:\Alex\Apps\Markdown Monster;C:\Users\Alex Shao\AppData\Local\atom\bin;D:\Alex\Apps\GitHubDesktopPortable\App\GitHubDesktop\bin;C:\Users\Alex Shao\AppData\Roaming\npm;C:\Users\Alex Shao\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Alex Shao\AppData\Local\Keybase\;D:\Alex\Resources\GitHub\GoWorks\bin;D:\Alex\Apps\GnuWin32\GetGnuWin32\bin;D:\Alex\Apps\gcc\bin;D:\Alex\Apps\aria2;D:\Alex\Apps\odupload;C:\Users\andatoshiki\AppData\Local\Yarn\bin;D:\Alex\Resources\GitHub\YoutubeDL-Material\node_modules\@angular\cli;D:\Alex\Apps\VsCode;C:\Users\andatoshiki\AppData\Roaming\npm
+PATH = D:\Alex\Apps\Go\bin;C:\Users\andatoshiki\bin;D:\Alex\Apps\Git\mingw64\bin;D:\Alex\Apps\Git\usr\local\bin;D:\Alex\Apps\Git\usr\bin;D:\Alex\Apps\Git\usr\bin;D:\Alex\Apps\Git\mingw64\bin;D:\Alex\Apps\Git\usr\bin;C:\Users\andatoshiki\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_71\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;D:\Alex\Apps\Git\cmd;D:\Alex\Apps\Hugo;C:\Program Files\Common Files\Autodesk Shared;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;D:\Alex\Apps\VSCodium\bin;D:\Alex\Apps\TexLive\texlive\2021\bin\win32;C:\Program Files\Wolfram Research\WolframScript;D:\Alex\Apps\PanDocs;C:\Program Files\dotnet;D:\Alex\Apps\Pandoc;D:\Alex\Apps\RClone;%GOPATH%\bin;%GOPATH%\bin;D:\Alex\Apps\GnuWin32\GetGnuWin32\bin;D:\Alex\Apps\gcc\bin;%GCC_PATH%\bin;D:\Alex\Apps\yarn\bin;C:\Users\andatoshiki\AppData\Roaming\npm;D:\Alex\Resources\GitHub\YoutubeDL-Material\node_modules\@angular\cli;C:\ProgramData\chocolatey\bin;D:\Alex\Apps\nodejs;D:\Alex\Apps\nodejs;D:\Alex\blast-2.12.0+\bin;D:\Alex\Apps\Python\Scripts;D:\Alex\Apps\Python;C:\Users\Alex Shao\AppData\Local\Microsoft\WindowsApps;D:\Alex\Apps\PyCharm 2020.3.3\bin;C:\Users\Alex Shao\AppData\Local\GitHubDesktop\bin;D:\Alex\Apps\MikTeX\miktex\bin\x64;D:\Alex\Apps\Markdown Monster;C:\Users\Alex Shao\AppData\Local\atom\bin;D:\Alex\Apps\GitHubDesktopPortable\App\GitHubDesktop\bin;C:\Users\Alex Shao\AppData\Roaming\npm;C:\Users\Alex Shao\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Alex Shao\AppData\Local\Keybase;D:\Alex\Resources\GitHub\GoWorks\bin;D:\Alex\Apps\aria2;D:\Alex\Apps\odupload;C:\Users\andatoshiki\AppData\Local\Yarn\bin;D:\Alex\Apps\VsCode;D:\Alex\Apps\Git\usr\bin\vendor_perl;D:\Alex\Apps\Git\usr\bin\core_perl
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -153,6 +180,8 @@ COMPUTERNAME = DESKTOP-43RSN5L
 MAKEFILES := 
 # automatic
 ^F = $(notdir $^)
+# environment
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
 # environment
 PYCHARM = D:\Alex\Apps\PyCharm 2020.3.3\bin;
 # environment
@@ -168,6 +197,8 @@ VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = Anda Toshiki
 # environment
+TERM_PROGRAM = mintty
+# environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
@@ -176,9 +207,13 @@ PROGRAMW6432 = C:\Program Files
 # makefile (from 'Makefile', line 1)
 NAME = toshiki-proxypool
 # environment
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
+# environment
+CONFIG_SITE = D:/Alex/Apps/Git/etc/config.site
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -190,11 +225,15 @@ OS = Windows_NT
 # environment
 DOKANLIBRARY1 = D:\Alex\Apps\Doken Library\
 # environment
+MSYSTEM_PREFIX = D:/Alex/Apps/Git/mingw64
+# environment
 VSCODE_PORTABLE = D:\Alex\Apps\VsCode\data
 # makefile
 .DEFAULT_GOAL := all
 # environment
 GCC_PATH = D:\Alex\Apps\gcc
+# environment
+DISPLAY = needs-to-be-defined
 # default
 MAKE_VERSION := 4.3
 # environment
@@ -206,9 +245,13 @@ NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
 # environment
+_ = D:/Alex/Apps/VsCode/code
+# environment
 APPDATA = C:\Users\andatoshiki\AppData\Roaming
 # environment
 HOMEDRIVE = C:
+# environment
+LC_CTYPE = en_US.UTF-8
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
@@ -216,23 +259,35 @@ GOMODCACHE = D:\Alex\Resources\GitHub\GoWorks\pkg\mod
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
+MSYSTEM = MINGW64
+# environment
+HOME = C:\Users\andatoshiki
+# environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # makefile (from 'Makefile', line 4)
 GOBUILD = CGO_ENABLED=0 go build -trimpath -ldflags '-w -s'
+# environment
+EXEPATH = D:\Alex\Apps\Git
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\ANDATO~1\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\491c5ca0877d567a22e631f6696184c1-1.67.2-main-sock
+TERM = xterm
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\491c5ca0877d567a22e631f6696184c1-1.68.1-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # environment
 ADSK_3DSMAX_X64_2020 = D:\Alex\Apps\Autodesk\3ds Max 2020\
 # default
 .RECIPEPREFIX := 
+# environment
+ORIGINAL_TMP = C:/Users/ANDATO~1/AppData/Local/Temp
 # automatic
 <F = $(notdir $<)
+# environment
+PLINK_PROTOCOL = ssh
 # default
 SUFFIXES := 
 # environment
@@ -246,11 +301,13 @@ MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries
 # environment
 PROCESSOR_REVISION = 8e0c
 # environment
+TERM_PROGRAM_VERSION = 3.5.2
+# environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 # makefile (from 'Makefile', line 6)
 PLATFORM_LIST = darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64
 # variable set hash-table stats:
-# Load=118/1024=12%, Rehash=0, Collisions=16/156=10%
+# Load=148/1024=14%, Rehash=0, Collisions=23/186=12%
 
 # Pattern-specific Variable Values
 
@@ -258,9 +315,9 @@ PLATFORM_LIST = darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux
 
 # Directories
 
-# . (key d:/Alex/Resources/GitHub/toshiki-proxypool, mtime 1655555676): 31 files, no impossibilities.
+# . (key d:/Alex/Resources/GitHub/toshiki-proxypool, mtime 1655748985): 33 files, no impossibilities.
 
-# 31 files, no impossibilities in 1 directories.
+# 33 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -277,8 +334,7 @@ linux-armv6:
 
 freebsd-386.gz: freebsd-386
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'freebsd-386 
-'
+#  Implicit/static pattern stem: 'freebsd-386'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 77):
@@ -345,8 +401,7 @@ linux-386.gz: linux-386
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 77):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
-	gzip -f -S -$(VERSION).gz $(BINDIR)/ 
-$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 
 linux-mips64:
 #  Implicit rule search has not been done.
@@ -478,8 +533,7 @@ linux-mipsle-hardfloat:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 60):
-	GOARCH=mipsle GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BIN 
-DIR)/$(NAME)-$@
+	GOARCH=mipsle GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
 linux-386:
 #  Implicit rule search has not been done.
@@ -548,8 +602,7 @@ linux-armv8:
 	GOARCH=arm64 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
 freebsd-amd64.gz: freebsd-amd64
-#  Implicit rul 
-e search has not been done.
+#  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'freebsd-amd64'
 #  Modification time never checked.
 #  File has not been updated.
@@ -592,13 +645,12 @@ linux-amd64:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 
- 1 (0) / strings = 70 / storage = 797 B / avg = 11 B
-# current buf: size = 8174 B / used = 797 B / count = 70 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 72 / storage = 820 B / avg = 11 B
+# current buf: size = 8174 B / used = 820 B / count = 72 / avg = 11 B
 
-# strcache performance: lookups = 173 / hit rate = 59%
+# strcache performance: lookups = 175 / hit rate = 58%
 # hash-table stats:
-# Load=70/8192=1%, Rehash=0, Collisions=0/173=0%
-# Finished Make data base on Mon Jun 20 04:36:06 2022
+# Load=72/8192=1%, Rehash=0, Collisions=0/175=0%
+# Finished Make data base on Thu Jun 30 03:18:59 2022
 
  
