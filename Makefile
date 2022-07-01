@@ -5,8 +5,11 @@ GOBUILD=CGO_ENABLED=0 go build -trimpath -ldflags '-w -s'
 
 PLATFORM_LIST = \
 	darwin-amd64 \
+	darwin-amd64-v3 \
+	darwin-arm64 \
 	linux-386 \
 	linux-amd64 \
+	linux-amd64-v3 \
 	linux-armv5 \
 	linux-armv6 \
 	linux-armv7 \
@@ -18,7 +21,9 @@ PLATFORM_LIST = \
 	linux-mips64 \
 	linux-mips64le \
 	freebsd-386 \
-	freebsd-amd64
+	freebsd-amd64 \
+	freebsd-amd64-v3 \
+	freebsd-arm64
 
 
 all: linux-amd64 darwin-amd64
@@ -29,11 +34,20 @@ docker:
 darwin-amd64:
 	GOARCH=amd64 GOOS=darwin $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
+darwin-amd64-v3:
+	GOARCH=amd64 GOOS=darwin GOAMD64=v3 $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
+
+darwin-arm64:
+	GOARCH=arm64 GOOS=darwin $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
+
 linux-386:
 	GOARCH=386 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
 linux-amd64:
 	GOARCH=amd64 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
+
+linux-amd64-v3:
+	GOARCH=amd64 GOOS=linux GOAMD64=v3 $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
 linux-armv5:
 	GOARCH=arm GOOS=linux GOARM=5 $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
@@ -70,6 +84,12 @@ freebsd-386:
 
 freebsd-amd64:
 	GOARCH=amd64 GOOS=freebsd $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
+
+freebsd-amd64-v3:
+	GOARCH=amd64 GOOS=freebsd GOAMD64=v3 $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
+
+freebsd-arm64:
+	GOARCH=arm64 GOOS=freebsd $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
 gz_releases=$(addsuffix .gz, $(PLATFORM_LIST))
 
