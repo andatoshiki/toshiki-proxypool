@@ -22,8 +22,7 @@
   - freebsd-386
   - freebsd-amd64
 
-- ✨(New in `v0.0.1`): Rewrote the workflows of GitHub action for incompatibilities along side the runners and Go running env versions, some packages are upgraded to higher versions and depreciated supports with lower Go env versions, Go `v1.17.x` env and compilers seems to be the best solution by far to all packages involved in this projects (`Error: ../../../go/pkg/mod/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f/http2/transport.go:417:45: undefined: os.ErrDeadlineExceeded
-note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL & Go checkings.
+- ✨(New in `v0.0.1`): 重写了GitHub行动的工作流程，以解决与运行者和Go运行环境版本不兼容的问题，一些软件包被升级到更高的版本，并减去了对较低Go环境版本的支持，Go v1.17.x环境和编译器似乎是迄今为止对该项目中涉及的所有软件包的最佳解决方案。(`Error: ../../../go/pkg/mod/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f/http2/transport.go:417:45: undefined: os.ErrDeadlineExceeded note: module requires Go 1.17`) 但在CodeQL和Go检查中通过了所有的兼容性测试。
 - ✨(New in `v0.0.1`): Bumped versions of dependencies and actions.
 
 #### Fixes
