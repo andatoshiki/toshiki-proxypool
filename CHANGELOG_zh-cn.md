@@ -1,11 +1,11 @@
-# Changlog
+# 更新日志
 
-## `V0.0.1` Release
+## 版本号 `V0.0.1` 
 
-### What's new in `v0.0.1`
+### `v0.0.1`版本更新内容
 
-#### New Features
-- ✨(New in `v0.0.1`): Docker image published via the latest [@ghcr](https://ghcr.io) github docker registry, replaced the depreciated docker.pkg.github.com regitry url to the shortened domain ghcr.io, docker image automatically published along with the Linux executable binaries targeting different platforms, the following the list provides the supporting platforms. (*Note to developers: the supported platform lists are also available in [Makefile](https://github.com/andatoshiki/toshiki-proxypool/blob/master/Makefile), PRs welcomeed for adding and adjusting more supporting lists*)
+#### 新特性
+- ✨(新版本 `v0.0.1`): 通过最新的 [@ghcr](https://ghcr.io) github docker 注册表发布的 Docker镜像，将旧的 docker.pkg.github.com 注册表的网址改为更短的 ghcr.io，Docker 镜像与针对不同平台的 Linux 可执行文件一起自动发布，以下是支持的平台列表。 (*开发者注意：支持的平台列表也可以在[Makefile](https://github.com/andatoshiki/toshiki-proxypool/blob/master/Makefile)，欢迎添加和调整更多的支持列表的PR*)
   - darwin-amd64
   - linux-386
   - linux-amd64
