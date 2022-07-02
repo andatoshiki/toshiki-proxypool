@@ -26,8 +26,8 @@ type asset struct {
 	info  os.FileInfo
 }
 
-// assetsGeoLite2CityMmdb reads file data from disk. It returns an error on failure.
-func assetsGeoLite2CityMmdb() (*asset, error) {
+// assetsgeoip2CityMmdb reads file data from disk. It returns an error on failure.
+func assetsgeoip2CityMmdb() (*asset, error) {
 	path := "assets/GeoIP2-City.mmdb"
 	name := "assets/GeoIP2-City.mmdb"
 	bytes, err := bindataRead(path, name)
@@ -114,7 +114,7 @@ func AssetNames() []string {
 
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
-	"assets/GeoIP2-City.mmdb": assetsGeoLite2CityMmdb,
+	"assets/GeoIP2-City.mmdb": assetsgeoip2CityMmdb,
 	"assets/flags.json":       assetsFlagsJson,
 }
 
@@ -160,7 +160,7 @@ type bintree struct {
 
 var _bintree = &bintree{nil, map[string]*bintree{
 	"assets": {nil, map[string]*bintree{
-		"GeoIP2-City.mmdb": {assetsGeoLite2CityMmdb, map[string]*bintree{}},
+		"GeoIP2-City.mmdb": {assetsgeoip2CityMmdb, map[string]*bintree{}},
 		"flags.json":       {assetsFlagsJson, map[string]*bintree{}},
 	}},
 }}
