@@ -115,7 +115,7 @@ func AssetNames() []string {
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
 	"assets/GeoIP2-City.mmdb": assetsGeoIP2CityMmdb,
-	"assets/flags.json":         assetsFlagsJson,
+	"assets/flags.json":       assetsFlagsJson,
 }
 
 // AssetDir returns the file names below a certain
@@ -161,7 +161,7 @@ type bintree struct {
 var _bintree = &bintree{nil, map[string]*bintree{
 	"assets": {nil, map[string]*bintree{
 		"GeoIP2-City.mmdb": {assetsGeoIP2CityMmdb, map[string]*bintree{}},
-		"flags.json":         {assetsFlagsJson, map[string]*bintree{}},
+		"flags.json":       {assetsFlagsJson, map[string]*bintree{}},
 	}},
 }}
 
