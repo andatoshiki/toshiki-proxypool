@@ -27,7 +27,7 @@ jobs:
             ${{ runner.os }}-go-
       - name: Get dependencies and run test
         run: |
-          go install
+          go install github.com/andatoshiki/toshiki-proxypool
           go test ./...
       - name: gen go-bindata
         if: startsWith(github.ref, 'refs/tags/')
