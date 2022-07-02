@@ -1,6 +1,6 @@
 // Code generated for package bingeoip by go-bindata DO NOT EDIT. (@generated)
 // sources:
-// assets/GeoLite2-City.mmdb
+// assets/GeoIP2-City.mmdb
 // assets/flags.json
 package bingeoip
 
@@ -28,8 +28,8 @@ type asset struct {
 
 // assetsGeoLite2CityMmdb reads file data from disk. It returns an error on failure.
 func assetsGeoLite2CityMmdb() (*asset, error) {
-	path := "assets/GeoLite2-City.mmdb"
-	name := "assets/GeoLite2-City.mmdb"
+	path := "assets/GeoIP2-City.mmdb"
+	name := "assets/GeoIP2-City.mmdb"
 	bytes, err := bindataRead(path, name)
 	if err != nil {
 		return nil, err
@@ -114,7 +114,7 @@ func AssetNames() []string {
 
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
-	"assets/GeoLite2-City.mmdb": assetsGeoLite2CityMmdb,
+	"assets/GeoIP2-City.mmdb": assetsGeoLite2CityMmdb,
 	"assets/flags.json":       assetsFlagsJson,
 }
 
@@ -160,7 +160,7 @@ type bintree struct {
 
 var _bintree = &bintree{nil, map[string]*bintree{
 	"assets": {nil, map[string]*bintree{
-		"GeoLite2-City.mmdb": {assetsGeoLite2CityMmdb, map[string]*bintree{}},
+		"GeoIP2-City.mmdb": {assetsGeoLite2CityMmdb, map[string]*bintree{}},
 		"flags.json":       {assetsFlagsJson, map[string]*bintree{}},
 	}},
 }}
