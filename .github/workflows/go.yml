@@ -39,7 +39,7 @@ jobs:
         env:
           NAME: proxypool
           BINDIR: bin
-        run: make -j releases
+        run: make -j releases && make sha256sum
 
       - name: Upload Release
         uses: softprops/action-gh-release@v1
