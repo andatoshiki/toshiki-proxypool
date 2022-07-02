@@ -50,4 +50,3 @@ self-hosted workflows issues and errors explained:
   - [x] And a lot of other shits I don't know, but yes, sleep rn (update 6/17/2022)
 - [x] FOSSA and codecov code analysis badge added
     - Add a coverage.txt file to the root of project for making codecov's API able to fetch the coverage report file.
-- [x] Add full version of GeoIP2 database for city level on location accuracy.

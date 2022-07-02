@@ -13,7 +13,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v3
         with:
-          go-version: '1.18.0-rc.1'
+          go-version: 1.17.x
 
       - name: Check out code into the Go module directory
         uses: actions/checkout@v3
@@ -27,19 +27,17 @@ jobs:
             ${{ runner.os }}-go-
       - name: Get dependencies and run test
         run: |
-          go get
-          go get github.com/gin-contrib/cache
-          go get github.com/gin-contrib/cache/persistence
+          go get 
           go test ./...
       - name: gen go-bindata
         if: startsWith(github.ref, 'refs/tags/')
         run: |
           go get -u github.com/go-bindata/go-bindata/...
-          go-bindata -o internal/bindata/geoip/geoip.go -pkg bingeoip  assets/GeoIP2-City.mmdb assets/flags.json
+          go-bindata -o internal/bindata/geoip/geoip.go -pkg bingeoip  assets/GeoLite2-City.mmdb assets/flags.json
       - name: Build
         if: startsWith(github.ref, 'refs/tags/')
         env:
-          NAME: toshiki-proxypool
+          NAME: proxypool
           BINDIR: bin
         run: make -j releases
 
