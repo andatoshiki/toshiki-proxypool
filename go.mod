@@ -8,7 +8,6 @@ require (
 	github.com/Dreamacro/clash v1.3.0
 	github.com/cloudflare/cloudflare-go v0.43.0
 	github.com/ghodss/yaml v1.0.0
-	github.com/gin-contrib/cache v1.1.0
 	github.com/gin-gonic/gin v1.8.1
 	github.com/gocolly/colly v1.2.0
 	github.com/heroku/x v0.0.50
@@ -41,7 +40,7 @@ require (
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/gomodule/redigo v2.0.0+incompatible // indirect
+	github.com/gomodule/redigo v1.8.8 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
