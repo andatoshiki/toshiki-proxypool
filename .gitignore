@@ -34,3 +34,5 @@ vendor
 
 # build outputs
 .bin
+
+node_modules
