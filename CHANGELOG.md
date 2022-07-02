@@ -184,11 +184,11 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 
 **Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.12...v0.0.12-alpha
 
-## `v0.0.13` Release
+## `v0.0.121` Release
 
-### What's new in `v0.0.13`
+### What's new in `v0.0.121`
 
-- ✨(New in `v0.0.13`): Added full version of `GeoIP2` database specifying distributions within city level but in accompany of  2× large in sized database, which is potentially not so user-friendly towards Linux user communities with slightly unfavorable system specification. Merely with more accuracy with replacement of the original `GeoLite2` database on the other hand as demonstrated by [stackoverflow @jasonk's answer](https://stackoverflow.com/questions/31125307/how-accurate-is-maxminds-geoip2-compared-to-geolite2-at-the-first-tuesday-of-the) with original reference to [MaxMind's GeoIP2 city accuracy testing documentation on city-country leveled comparison](https://www.maxmind.com/en/geoip2-city-accuracy-comparison). please fallback into its previous version if your operating systems do not meet the qualification/specification of this application, `GeoLite2` database will no longer be supported in new releases. 
+- ✨(New in `v0.0.121`): Added full version of `GeoIP2` database specifying distributions within city level but in accompany of  2× large in sized database, which is potentially not so user-friendly towards Linux user communities with slightly unfavorable system specification. Merely with more accuracy with replacement of the original `GeoLite2` database on the other hand as demonstrated by [stackoverflow @jasonk's answer](https://stackoverflow.com/questions/31125307/how-accurate-is-maxminds-geoip2-compared-to-geolite2-at-the-first-tuesday-of-the) with original reference to [MaxMind's GeoIP2 city accuracy testing documentation on city-country leveled comparison](https://www.maxmind.com/en/geoip2-city-accuracy-comparison). please fallback into its previous version if your operating systems do not meet the qualification/specification of this application, `GeoLite2` database will no longer be supported in new releases. 
   >**Warning** Disclaimer on `v0.0.12-beta`: The `GeoIP2-City.mmdb` database file is contained in this repository is originally released and distributed under [@MaxMind official's EULA](https://www.maxmind.com/en/end-user-license-agreement) & its own [site licensing](https://www.maxmind.com/en/site-license-overview); the database component (`GeoIP2-City.mmdb` & `GeoIP2-City.mmdb`, referred as them in the follows) sources were came from illegitimately uploads from internet; I (@andatoshiki) neither own the database component of this repository nor redistributing/republishing/reprinting their affiliated or subsidiaries. This project do not permit users to act on any behavior explained above including [site licensing](https://www.maxmind.com/en/site-license-overview) of MaxMind, but we do not guarantee warranty of any kinds or any action done/taken further by the users.
 
 ### (Auto Generated Changelog) What's Changed
@@ -197,4 +197,4 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 * doc(todo): updated one more todo list by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/55
 
 
-**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.12...v0.0.13
+**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.12...v0.0.121
