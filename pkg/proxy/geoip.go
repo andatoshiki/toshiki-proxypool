@@ -9,13 +9,13 @@ import (
 	"os"
 
 	bingeoip "github.com/andatoshiki/toshiki-proxypool/internal/bindata/geoip"
-	"github.com/oschwald/geoip2-golang"
+	"github.com/oschwald/GeoLite2-golang"
 )
 
 var geoIp GeoIP
 
 func InitGeoIpDB() error {
-	geodb := "assets/GeoIP2-City.mmdb"
+	geodb := "assets/GeoLite2-City.mmdb"
 	// 判断文件是否存在
 	_, err := os.Stat(geodb)
 	if err != nil && os.IsNotExist(err) {
@@ -24,21 +24,21 @@ func InitGeoIpDB() error {
 			panic(err)
 			return err
 		}
-		err = bingeoip.RestoreAsset("", "assets/GeoIP2-City.mmdb")
+		err = bingeoip.RestoreAsset("", "assets/GeoLite2-City.mmdb")
 		if err != nil {
-			log.Println("文件不存在，请自行下载 Geoip2 City库，并保存在", geodb)
+			log.Println("文件不存在，请自行下载 GeoLite2 City库，并保存在", geodb)
 			panic(err)
 			return err
 		}
-		geoIp = NewGeoIP("assets/GeoIP2-City.mmdb", "assets/flags.json")
+		geoIp = NewGeoIP("assets/GeoLite2-City.mmdb", "assets/flags.json")
 	}
-	geoIp = NewGeoIP("assets/GeoIP2-City.mmdb", "assets/flags.json")
+	geoIp = NewGeoIP("assets/GeoLite2-City.mmdb", "assets/flags.json")
 	return nil
 }
 
-// GeoIP2
+// GeoLite2
 type GeoIP struct {
-	db       *geoip2.Reader
+	db       *GeoLite2.Reader
 	emojiMap map[string]string
 }
 
@@ -50,7 +50,7 @@ type CountryEmoji struct {
 // new geoip from db file
 func NewGeoIP(geodb, flags string) (geoip GeoIP) {
 	// 运行到这里时geodb只能为存在
-	db, err := geoip2.Open(geodb)
+	db, err := GeoLite2.Open(geodb)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -90,7 +90,7 @@ func (g GeoIP) Find(ipORdomain string) (ip, country string, err error) {
 	}
 	ip = ips[0].String()
 
-	var record *geoip2.City
+	var record *GeoLite2.City
 	record, err = g.db.City(ips[0])
 	if err != nil {
 		return
