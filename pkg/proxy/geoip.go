@@ -15,7 +15,7 @@ import (
 var geoIp GeoIP
 
 func InitGeoIpDB() error {
-	geodb := "assets/GeoIP2-City.mmdb"
+	geodb := "assets/GeoLite2-City.mmdb"
 	// 判断文件是否存在
 	_, err := os.Stat(geodb)
 	if err != nil && os.IsNotExist(err) {
@@ -24,15 +24,15 @@ func InitGeoIpDB() error {
 			panic(err)
 			return err
 		}
-		err = bingeoip.RestoreAsset("", "assets/GeoIP2-City.mmdb")
+		err = bingeoip.RestoreAsset("", "assets/GeoLite2-City.mmdb")
 		if err != nil {
 			log.Println("文件不存在，请自行下载 Geoip2 City库，并保存在", geodb)
 			panic(err)
 			return err
 		}
-		geoIp = NewGeoIP("assets/GeoIP2-City.mmdb", "assets/flags.json")
+		geoIp = NewGeoIP("assets/GeoLite2-City.mmdb", "assets/flags.json")
 	}
-	geoIp = NewGeoIP("assets/GeoIP2-City.mmdb", "assets/flags.json")
+	geoIp = NewGeoIP("assets/GeoLite2-City.mmdb", "assets/flags.json")
 	return nil
 }
 
