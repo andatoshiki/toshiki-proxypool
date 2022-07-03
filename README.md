@@ -50,7 +50,7 @@ Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node cra
 
 ### What does it support?
 
-- **🧩 Extensible**: Support SSS, SSR, vmess, trojan & a variable types of nodes.
+- **🧩 Extensible**: Support SS, SSR, vmess, trojan & a variable types of nodes.
 - **💬 Telegram**: Telegram channel sniffer & crawling.
 - **🎲 Featured**: Support address subscription sniffer, analysis & crawling.
 - **🌐 Web**: Open network vague crawling.
