@@ -92,13 +92,21 @@ freebsd-arm64:
 	GOARCH=arm64 GOOS=freebsd $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
 gz_releases=$(addsuffix .gz, $(PLATFORM_LIST))
+zip_releases=$(addsuffix .zip, $(PLATFORM_LIST))
 
 $(gz_releases): %.gz : %
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+$(zip_releases): %.gz : %
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	zip -m -j -$(VERSION).zip $(BINDIR)/$(NAME)-$(basename $@)
 
 all-arch: $(PLATFORM_LIST)
 
-releases: $(gz_releases)
+releases: $(gz_releases) $(zip_releases)
+
+sha256sum:
+	cd $(BINDIR); for file in *; do sha256sum $$file > $$file.sha256; done
+
 clean:
 	rm $(BINDIR)/*
