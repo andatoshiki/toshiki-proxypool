@@ -162,3 +162,31 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 * @fossabot made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/31
 
 **Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.1...v0.0.12
+
+## `v0.0.121` Release
+
+### What's new in `v0.0.121`
+
+- ✨(New in `v0.0.121`): Added full version of `GeoIP2` database specifying distributions within city level but in accompany of  2× large in sized database, which is potentially not so user-friendly towards Linux user communities with slightly unfavorable system specification. Merely with more accuracy with replacement of the original `GeoLite2` database on the other hand as demonstrated by [stackoverflow @jasonk's answer](https://stackoverflow.com/questions/31125307/how-accurate-is-maxminds-geoip2-compared-to-geolite2-at-the-first-tuesday-of-the) with original reference to [MaxMind's GeoIP2 city accuracy testing documentation on city-country leveled comparison](https://www.maxmind.com/en/geoip2-city-accuracy-comparison). please fallback into its previous version if your operating systems do not meet the qualification/specification of this application, `GeoLite2` database will no longer be supported in new releases. 
+  >**Warning** Disclaimer on `v0.0.12-beta`: The `GeoIP2-City.mmdb` database file is contained in this repository is originally released and distributed under [@MaxMind official's EULA](https://www.maxmind.com/en/end-user-license-agreement) & its own [site licensing](https://www.maxmind.com/en/site-license-overview); the database component (`GeoIP2-City.mmdb` & `GeoLite2-City.mmdb`, referred as them in the follows) sources were came from illegitimately uploads from internet; I (@andatoshiki) neither own the database component of this repository nor redistributing/republishing/reprinting their affiliated or subsidiaries. This project do not permit users to act on any behavior explained above including [site licensing](https://www.maxmind.com/en/site-license-overview) of MaxMind, but we do not guarantee warranty of any kinds or any action done/taken further by the users.
+
+### (Auto Generated Changelog) What's Changed
+* build(deps): bump gorm.io/gorm from 1.23.6 to 1.23.7 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/51
+* build(deps): bump github.com/cloudflare/cloudflare-go from 0.41.0 to 0.43.0 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/52
+* doc(todo): updated one more todo list by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/55
+
+
+**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.0.12...v0.0.121
+
+## `v.0.0.122` Release
+
+### What's new in `v0.0.122`
+
+- ✨(New in `v0.0.122`): Updated the latest MaxMind's `GeoLite-City.mmdb` city database
+
+### (Auto Generated Changelog) What's Changed
+* build(deps): bump gorm.io/driver/postgres from 1.3.7 to 1.3.8 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/74
+* build(deps): bump github.com/cloudflare/cloudflare-go from 0.43.0 to 0.44.0 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/75
+
+
+**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v0.121...v0.0.122
