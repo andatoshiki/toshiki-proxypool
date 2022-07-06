@@ -1,6 +1,8 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'd:/Alex/Resources/GitHub/toshiki-proxypool'
 GOARCH=amd64 GOOS=linux CGO_ENABLED=0 go build -trimpath -ldflags '-w -s' -o bin/toshiki-proxypool-linux-amd64
+ 
 GOARCH=amd64 GOOS=darwin CGO_ENABLED=0 go build -trimpath -ldflags '-w -s' -o bin/toshiki-proxypool-darwin-amd64
+GOARCH=arm64 GOOS=linux CGO_ENABLED=0 go build -trimpath -ldflags '-w -s' -o bin/toshiki-proxypool-linux-armv8
 make: Leaving directory 'd:/Alex/Resources/GitHub/toshiki-proxypool'
  
