@@ -1,10 +1,8 @@
+<div id="top"></div>
 <img src="https://www.unpkg.com/@andatoshiki/toshiki-proxypool-ui@0.0.13/assets/img/toshiki-proxypool-logo@v0.0.13.png" alt="logo" width="140" height="140" align="left" />
 
 <h1>俊樹のProxypool</h1>
 
-> The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan!
-
-<!--
 <p align="center">
     <a >simple and fast</a>
     <br />
@@ -13,13 +11,13 @@
     <br />
     <a>English</a>
     ·
-    <a href="/README.zh-cn.md">简体中文</a>
+    <a href="/README.zh-cn.MD">简体中文</a>
   </p>
 
 </div>
 
 > The all-in-one crawler/scraper for crunching free proxy nodes of SS, SSR, vmess, trojan!
-<!--Automatically crawl SS, SSR, vmess, trojan node info from web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
+<!--Automatically crawl SS, SSR, vmess, trojan node info from the web, Telegram Channels, and localize/integrate into a web panel for convenient usages.-->
 
 <!-- add translation here later on with href links for easier access -->
 
@@ -39,14 +37,54 @@
 [![](https://data.jsdelivr.com/v1/package/gh/andatoshiki/toshiki-proxypool-ui/badge)](https://www.jsdelivr.com/package/gh/andatoshiki/toshiki-proxypool-ui)
 <!-- badges ends -->
 
-<!-- 这里需要添加目录 -->
+
+
+<details>
+  <summary>展开目录</summary>
+  <ol>
+    <li><a href="#1">先看我！！！</a></li>
+    <li>
+      <a href="#2">我是谁？</a>
+      <ul>
+        <li><a href="#2.1">它能做什么？</a></li>
+      </ul>
+    </li>
+    <li><a href="#3">安装</a></li>
+     <ul>
+       <li><a href="#3.1">Heroku</a></li>
+<li><a href="#3.2">从源码编译</a></li>
+<li><a href="#3.3">下载预编译程序</a></li>
+<li><a href="#3.4">使用docker</a></li></ul></li>
+    <li>
+<a href="#4> 使用</a>
+<ul>
+<li><a href="#4.1">修改配置文件</a></li>
+<li><a href="#4.2">启动程序</a></li>
+</ul>
+</li>
+    <li><a href="#5">Clash配置文件</a></li>
+    <li><a href="#6">本地检查节点可用性</a></li>
+<li><a href="#7">截图</a></li>
+<li><a href="#8">License</a></li>
+  </ol>
+</details>
+
+
+<div id="1"></div>
+
 ## Read Before You Proceed
 
 >**Note**: Note that this project was **originally** released by **[sansui233](https://github.com/Sansui233/proxypool)** licensed under **[GNU](https://www.gnu.org/licenses/licenses.en.html)** for project derivational development and distribution; As required by original developers, project content contained under [proxypool](https://github.com/Sansui233/proxypool) and its affiliates **MUST** be copyleft yet pointing the credit of the original developer. *Hence this project and its assets in contained is a new branch & version published and secondarily developed from the original project*, please understand and ensure copywrites are **pointing the original author** for your own development.
 
+<div id="2"></div>
+
 ## What is [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/)?
 
-Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node crawler written in GoLang and complied into a compiled into a Linux image for VPS deployment, you can also try deployment for Heroku, completely free to use, see the next section for further info.
+Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node crawler written in GoLang and compiled into a compiled into a Linux image for VPS deployment, you can also try deployment for Heroku, completely free to use, see the next section for further info.
+
+- ***The original author is no longer maintaining the original project, thus this project exists.***
+
+<div id="2.1"></div>
 
 ### What does it support?
 
@@ -63,32 +101,27 @@ Toshiki's proxypool contains a complete suite of SS, SSR, vmess, trojan node cra
 - **🍔 Customizable**: Allowed to whitelist the countries to your demand.
 - ...
 
-## Why does [toshiki-proxypool](https://github.com/andatoshiki/toshiki-proxypool/) exists?
-
-- ***The original author is no longer maintaining the original project, thus this project exists.***
-
-- **Issues function will be disabled in this repository for preventing further affairs and issues from happening.**
+<div id="3"></div>
 
 ## Installation
 
+<div id="3.1"></div>
+
 ### [Heroku](https://www.heroku.com/)
+
+
 
 ### 
 
 Click the button below and fill in the basic information
 
-
-其中 `DOMAIN` 需要填写为你需要绑定的域名，`CONFIG_FILE` 需要填写你的配置文件路径。
-<!-- 机翻建议
-Where `DOMAIN` needs to be filled in as the domain name you need to bind, and `CONFIG_FILE` needs to be filled in as the path to your configuration file.
- -->
+Where `DOMAIN` needs to be filled in as the domain name you need to bind, and "CONFIG _ FILE" need to be filled in as the path of the configuration file.
 
 > heroku app域名为appname.herokuapp.com。项目内配置文件为./config/config.yaml
 <!-- 机翻建议
 The heroku app domain name is appname.herokuapp.com and the project configuration file is . /config/config.yaml
  -->
-
-配置文件模板见 `config/config.yaml` 文件，可选项区域均可不填。完整配置选项请查看[配置文件说明](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)。
+configuration file template can be found in the the `config / config.yaml` file, while optional fields can be retained. For full configuration options, see [Profile Description](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)。
 <!-- 机翻建议
 The configuration file template can be found in the `config/config.yaml` file, and the optional fields can be left unfilled. For complete configuration options, see [configuration file description].
  -->
@@ -103,6 +136,7 @@ Because the crawler needs to run continuously, choose at least the $7/month conf
 The free configuration will be forced to stop by heroku if no one accesses it for a long time
  -->
 
+<div id="3.2"></div>
 
 ### 从源码编译
 
@@ -124,23 +158,33 @@ $ go run main.go -c ./config/config.yaml
 make
 ```
 
+<div id="3.3"></div>
+
 ### 下载预编译程序
 
-从这里下载预编译好的程序 [release](https://github.com/andatoshiki/toshiki-proxypool/releases)。
+从这里下载预编译好的程序 
+[![GitHub release](https://img.shields.io/github/release/andatoshiki/toshiki-proxypool.svg)](https://github.com/andatoshiki/toshiki-proxypool/releases)
+
+<div id="3.4"></div>
 
 ### use docker
 
 ```sh
 docker pull docker.pkg.github.com/andatoshiki/toshiki-proxypool/proxypool:latest
 ```
+<div id="4"></div>
 
 ## 使用
 
 运行该程序需要具有访问完整互联网的能力。
 
+<div id="4.1"></div>
+
 ### 修改配置文件
 
 首先修改 config.yaml 中的必要配置信息。带有默认值的字段均可不填写。完整的配置选项见[配置文件说明](https://github.com/andatoshiki/toshiki-proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)
+
+<div id="4.2"></div>
 
 ### 启动程序
 
@@ -165,11 +209,16 @@ Use the -c parameter to specify the path to the configuration file, which suppor
 proxypool -c . /config/config.yaml
 If you need to deploy to a VPS, see the wiki for more details.
  -->
+
+<div id="5"></div>
+
 ## Clash配置文件
 
 远程部署时Clash配置文件访问：https://domain/clash/config
 
 本地运行时Clash配置文件访问：http://127.0.0.1:[端口]/clash/localconfig
+
+<div id="6"></div>
 
 ## 本地检查节点可用性
 
@@ -186,8 +235,12 @@ Check node availability locally
 This item is not required. To improve actual availability, an optional local server can be added to check the local availability of remote proxypool nodes and provide configuration, see proxypoolCheck
  -->
 
+<div id="7"></div>
+
 ## screenshot
 ![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
+
+<div id="8"></div>
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandatoshiki%2Ftoshiki-proxypool?ref=badge_shield)

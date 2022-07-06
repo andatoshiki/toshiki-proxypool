@@ -1,11 +1,13 @@
-# Changlog
+# 更新日志
 
-## `V0.0.1` Release
+(*中文日志仅供参考，意在方便中文环境下的阅读者，内容请以英文版为准*)
 
-### What's new in `v0.0.1`
+## 版本号 `V0.0.1` 
 
-#### New Features
-- ✨(New in `v0.0.1`): Docker image published via the latest [@ghcr](https://ghcr.io) github docker registry, replaced the depreciated docker.pkg.github.com regitry url to the shortened domain ghcr.io, docker image automatically published along with the Linux executable binaries targeting different platforms, the following the list provides the supporting platforms. (*Note to developers: the supported platform lists are also available in [Makefile](https://github.com/andatoshiki/toshiki-proxypool/blob/master/Makefile), PRs welcomeed for adding and adjusting more supporting lists*)
+### `v0.0.1`版本更新内容
+
+#### 新特性
+- ✨(Nee in `v0.0.1`): 通过最新的 [@ghcr](https://ghcr.io) github docker 注册表发布的 Docker镜像，将旧的 docker.pkg.github.com 注册表的网址改为更短的 ghcr.io，Docker 镜像与针对不同平台的 Linux 可执行文件一起自动发布，以下是支持的平台列表。 (*开发者注意：支持的平台列表也可以在[Makefile](https://github.com/andatoshiki/toshiki-proxypool/blob/master/Makefile)，欢迎添加和调整更多的支持列表的PR*)
   - darwin-amd64
   - linux-386
   - linux-amd64
@@ -22,23 +24,22 @@
   - freebsd-386
   - freebsd-amd64
 
-- ✨(New in `v0.0.1`): Rewrote the workflows of GitHub action for incompatibilities along side the runners and Go running env versions, some packages are upgraded to higher versions and depreciated supports with lower Go env versions, Go `v1.17.x` env and compilers seems to be the best solution by far to all packages involved in this projects (`Error: ../../../go/pkg/mod/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f/http2/transport.go:417:45: undefined: os.ErrDeadlineExceeded
-note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL & Go checkings.
-- ✨(New in `v0.0.1`): Bumped versions of dependencies and actions.
+- ✨(New in `v0.0.1`): 重写了GitHub行动的工作流程，以解决与运行者和Go运行环境版本不兼容的问题，一些软件包被升级到更高的版本，并减去了对较低Go环境版本的支持，Go v1.17.x环境和编译器似乎是迄今为止对该项目中涉及的所有软件包的最佳解决方案。(`Error: ../../../go/pkg/mod/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f/http2/transport.go:417:45: undefined: os.ErrDeadlineExceeded note: module requires Go 1.17`) 但在CodeQL和Go检查中通过了所有的兼容性测试。
+- ✨(New in `v0.0.1`): 升级了一些依赖包/库和脚本.
 
-#### Fixes
+#### 已修复
 
-- 🐛(Bug in `v0.0.1`): Removed [cache.go]() due to automatic action build errors with `Error: internal/cloudflare/cache.go:24:30: not enough arguments in call to api.ZoneDetails`.
-- 🐛(Bug in `v0.0.1`): Fixed undetectable release taggings from the original repo to docker image generations.
-
-
-#### Chores
-
-- 📝 (Chores in `v0.0.1`): Linted all Go source codes with `go fmt` and `ineffasign` with a go report of A+ [![Go report card](https://goreportcard.com/badge/github.com/andatoshiki/toshiki-proxypool)](https://goreportcard.com/report/github.com/andatoshiki/toshiki-proxypool).
-- ⬆️ (Chores in `v0.0.1`): Bumped all dependencies and package versions under conflicts.
+- 🐛(Bug in `v0.0.1`): 移除了 [cache.go]() 由于自动操作生成错误 `Error: internal/cloudflare/cache.go:24:30: not enough arguments in call to api.ZoneDetails`.
+- 🐛(Bug in `v0.0.1`): 修复了 不可检测的发布标签从原仓库到docker镜像生成
 
 
-### (Auto Generated Changelog) What's Changed
+#### 已检查
+
+- 📝 (Chores in `v0.0.1`): 用`go fmt`和`ineffasign`美化(格式化)所有的Go源代码，Go报告为A+ [![Go report card](https://goreportcard.com/badge/github.com/andatoshiki/toshiki-proxypool)](https://goreportcard.com/report/github.com/andatoshiki/toshiki-proxypool).
+- ⬆️ (Chores in `v0.0.1`): 升级了所有依赖关系和软件包版本
+
+
+### (自动化生成日志) 更新内容
 * chore(deps): bump actions/checkout from 2 to 3 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/13
 * build(deps): bump github.com/heroku/x from 0.0.26 to 0.0.50 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/10
 * build(deps): bump actions/upload-artifact from 2.2.1 to 3.1.0 by @dependabot in https://github.com/andatoshiki/toshiki-proxypool/pull/1
@@ -62,12 +63,12 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 * docs(reamde): updated readme with html based comments by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/22
 * chore(readme): added testing lines by @andatoshiki in https://github.com/andatoshiki/toshiki-proxypool/pull/23
 
-### New Contributors
-* @dependabot made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/13
-* @andatoshiki made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/14
-* @toshikijp made their first contribution in https://github.com/andatoshiki/toshiki-proxypool/pull/16
+### 新贡献者
+* @dependabot 首次贡献，在 https://github.com/andatoshiki/toshiki-proxypool/pull/13
+* @andatoshiki 首次贡献，在 https://github.com/andatoshiki/toshiki-proxypool/pull/14
+* @toshikijp 首次贡献，在 https://github.com/andatoshiki/toshiki-proxypool/pull/16
 
-**Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/commits/v0.0.1
+**完整日志**: https://github.com/andatoshiki/toshiki-proxypool/commits/v0.0.1
 
 ## `V0.0.11-alpha`
 
