@@ -7,7 +7,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: dessant/lock-threads@08e671be8ac8944d0e132aa71d0ae8ccfb347675
+      - uses: dessant/lock-threads@e460dfeb36e731f3aeb214be6b0c9a9d9a67eda6
         with:
           issue-inactive-days: 21
           add-issue-labels: 'Outdated'
