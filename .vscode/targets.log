@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Thu Jul 07 05:53:21 2022
+# Make data base, printed on Sat Aug 20 06:34:38 2022
 
 # Variables
 
@@ -28,9 +28,9 @@ BINDIR = bin
 # environment
 LOCALAPPDATA = C:\Users\andatoshiki\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-63586e9d-1744-4bb3-9455-a36ccc52d15c-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1dedb840-18dc-46ae-8b2a-a3dc53631e00-sock
 # environment
-VSCODE_CWD = D:\Alex\Resources\GitHub\toshiki-proxypool
+VSCODE_CWD = D:\alex\resources\github\toshiki-proxypool
 # environment
 MINGW_PREFIX = D:/Alex/Apps/Git/mingw64
 # environment
@@ -52,10 +52,9 @@ DOKANLIBRARY1_LIBRARYPATH_X64 = D:\Alex\Apps\Doken Library\lib\
 # environment
 ACLOCAL_PATH = D:\Alex\Apps\Git\mingw64\share\aclocal;D:\Alex\Apps\Git\usr\share\aclocal
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9340_GIMLAZSVGTFUPCNE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14816_MUXFCALLYYVDDORT
 # environment
-ORIGINAL_TEMP = C:/Users/ANDATO~1/AppData 
-/Local/Temp
+ORIGINAL_TEMP = C:/Users/ANDATO~1/AppData/Local/Temp
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -63,7 +62,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = D:/Alex/Resources/GitHub/toshiki-proxypool
+PWD = D:/alex/resources/github/toshiki-proxypool
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # environment
@@ -71,7 +70,7 @@ HOSTNAME = DESKTOP-43RSN5L
 # environment
 PS1 = \[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
 # environment
-OLDPWD = D:/Alex/Resources/GitHub
+OLDPWD = D:/alex/resources/github
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # environment
@@ -101,7 +100,7 @@ INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
 # environment
 ONEDRIVE = D:\Alex\Resources\Onedrive
 # makefile
-CURDIR := d:/Alex/Resources/GitHub/toshiki-proxypool
+CURDIR := d:/alex/resources/github/toshiki-proxypool
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -109,8 +108,7 @@ DOKANLIBRARY1_LIBRARYPATH_X86 = D:\Alex\Apps\Doken Library\x86\lib\
 # environment
 MSYSTEM_CARCH = x86_64
 # environment
-APPLI 
-CATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # makefile (from 'Makefile', line 3)
@@ -132,7 +130,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9340
+VSCODE_PID = 14816
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -142,11 +140,16 @@ MINGW_CHOST = x86_64-w64-mingw32
 # automatic
 *F = $(notdir $*)
 # environment
-MANPATH = D:\Alex\Apps\Git\mingw64\local\man;D:\Alex\Apps\Git\mingw64\share\man;D:\Alex\Apps\Git\usr\local\man;D:\Alex\Apps\Git\usr\share\man;D:\Alex\Apps\Git\usr\man;D:\Alex\Apps\Git\share\man
+MANPATH = D:\Alex\Apps\Git\mingw64\local\man;D:\Alex\Apps\Git\mingw64\share\man;D:\Alex\Apps\Git\usr\local\man;D:\Alex\Apps\Git\usr\share\man;D:\Alex\Apps\Git\usr\man;D 
+:\Alex\Apps\Git\share\man
+# environment
+NPM = D:\Alex\Apps\nodejs\node_modules\npm
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+NODE = D:\Alex\Apps\nodejs
 # default
 MAKE_HOST := Windows32
 # environment
@@ -199,7 +202,8 @@ GOROOT = D:\Alex\Apps\Go
 LOGONSERVER = \\DESKTOP-43RSN5L
 # environment
 VSCODE_LOG_NATIVE = false
-# environment
+# enviro 
+nment
 USERNAME = Anda Toshiki
 # environment
 TERM_PROGRAM = mintty
@@ -281,8 +285,9 @@ TEMP = C:\Users\ANDATO~1\AppData\Local\Temp
 TERM = xterm
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\491c5ca0877d567a22e631f6696184c1-1.68.1-main-sock
-# environment
-GOPROXY = https://proxy.golang.org,direct
+# environm 
+ent
+GOPROXY = https://goproxy.cn
 # environment
 ADSK_3DSMAX_X64_2020 = D:\Alex\Apps\Autodesk\3ds Max 2020\
 # default
@@ -312,7 +317,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 # makefile (from 'Makefile', line 6)
 PLATFORM_LIST = darwin-amd64 darwin-amd64-v3 darwin-arm64 linux-386 linux-amd64 linux-amd64-v3 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64 freebsd-amd64-v3 freebsd-arm64
 # variable set hash-table stats:
-# Load=149/1024=15%, Rehash=0, Collisions=23/187=12%
+# Load=151/1024=15%, Rehash=0, Collisions=23/189=12%
 
 # Pattern-specific Variable Values
 
@@ -320,7 +325,7 @@ PLATFORM_LIST = darwin-amd64 darwin-amd64-v3 darwin-arm64 linux-386 linux-amd64 
 
 # Directories
 
-# . (key d:/Alex/Resources/GitHub/toshiki-proxypool, mtime 1657143237): 36 files, no impossibilities.
+# . (key d:/alex/resources/github/toshiki-proxypool, mtime 1657143237): 36 files, no impossibilities.
 
 # 36 files, no impossibilities in 1 directories.
 
@@ -396,6 +401,13 @@ darwin-arm64.gz: darwin-arm64
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 
+sha256sum:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 105):
+	cd $(BINDIR); for file in *; do sha256sum $$file > $$file.sha256; done
+
 releases: darwin-amd64.gz darwin-amd64-v3.gz darwin-arm64.gz linux-386.gz linux-amd64.gz linux-amd64-v3.gz linux-armv5.gz linux-armv6.gz linux-armv7.gz linux-armv8.gz linux-mips-softfloat.gz linux-mips-hardfloat.gz linux-mipsle-softfloat.gz linux-mipsle-hardfloat.gz linux-mips64.gz linux-mips64le.gz freebsd-386.gz freebsd-amd64.gz freebsd-amd64-v3.gz freebsd-arm64.gz
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -404,7 +416,7 @@ releases: darwin-amd64.gz darwin-amd64-v3.gz darwin-arm64.gz linux-386.gz linux-
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 04:58:00
+#  Last modified 2022-07-07 08:07:29
 #  File has been updated.
 #  Successfully updated.
 
@@ -437,7 +449,7 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 104):
+#  recipe to execute (from 'Makefile', line 108):
 	rm $(BINDIR)/*
 
 freebsd-amd64-v3.gz: freebsd-amd64-v3
@@ -445,6 +457,7 @@ freebsd-amd64-v3.gz: freebsd-amd64-v3
 #  Implicit/static pattern stem: 'freebsd-amd64-v3'
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 97):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
@@ -517,7 +530,8 @@ all: linux-amd64 darwin-amd64 linux-armv8
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+# Load=0/32=0%, Rehash=0, Collisions=0 
+/6=0%
 
 darwin-amd64:
 #  Implicit rule search has not been done.
@@ -597,13 +611,13 @@ linux-mipsle-hardfloat:
 
 darwin-amd64-v3.gz: darwin-amd64-v3
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'darwin- 
-amd64-v3'
+#  Implicit/static pattern stem: 'darwin-amd64-v3'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 97):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
-	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$ 
+(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 
 linux-386:
 #  Implicit rule search has not been done.
@@ -718,27 +732,26 @@ linux-amd64:
 # ? := 
 # automatic
 # | := 
-# variable set hash-table s 
-tats:
+# variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=6/15=40%
 #  recipe to execute (from 'Makefile', line 47):
 	GOARCH=amd64 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@
 
-# files hash-table stats:
-# Load=48/1024=5%, Rehash=0, Collisions=4/126=3%
+# files hash-table  
+stats:
+# Load=49/1024=5%, Rehash=0, Collisions=5/127=4%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 85 / storage = 1020 B / avg = 12 B
-# current buf: size = 8174 B / used = 1020 B / count = 85 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 86 / storage = 1030 B / avg = 11 B
+# current buf: size = 8174 B / used = 1030 B / count = 86 / avg = 11 B
 
-# strcache performance: lookups = 
- 219 / hit rate = 61%
+# strcache performance: lookups = 221 / hit rate = 61%
 # hash-table stats:
-# Load=85/8192=1%, Rehash=0, Collisions=3/219=1%
-# Finished Make data base on Thu Jul 07 05:53:21 2022
+# Load=86/8192=1%, Rehash=0, Collisions=3/221=1%
+# Finished Make data base on Sat Aug 20 06:34:38 2022
 
  
