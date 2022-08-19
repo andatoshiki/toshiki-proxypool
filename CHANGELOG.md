@@ -195,4 +195,8 @@ note: module requires Go 1.17`), yet passes all compatibility testings in CodeQL
 
 ### What's new in `v0.0.123`
 
-- - ✨(New in `v0.0.123`): Updated the latest MaxMind's `GeoLite-City.mmdb` city database.
+- ✨(New in `v0.0.123`): Updated the latest MaxMind's `GeoLite-City.mmdb` city database.
+
+### (Auto Generated Changelog) What's changed?
+
+- **Full Changelog**: https://github.com/andatoshiki/toshiki-proxypool/compare/v.0.0.122...v0.0.123
