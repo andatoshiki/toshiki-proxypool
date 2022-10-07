@@ -32,7 +32,8 @@ jobs:
       - name: gen go-bindata
         if: startsWith(github.ref, 'refs/tags/')
         run: |
-          go get -u github.com/go-bindata/go-bindata/...
+          curl --silent --location --output /usr/local/bin/go-bindata https://github.com/kevinburke/go-bindata/releases/download/v3.11.0/go-bindata-linux-amd64
+          chmod 755 /usr/local/bin/go-bindata
           go-bindata -o internal/bindata/geoip/geoip.go -pkg bingeoip  assets/GeoLite2-City.mmdb assets/flags.json
       - name: Build
         if: startsWith(github.ref, 'refs/tags/')
