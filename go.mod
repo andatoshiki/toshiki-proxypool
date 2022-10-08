@@ -20,7 +20,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
 	gopkg.in/yaml.v3 v3.0.1
-	gorm.io/driver/postgres v1.4.1
+	gorm.io/driver/postgres v1.4.4
 	gorm.io/gorm v1.23.7
 )
 
