@@ -16,7 +16,7 @@ var DB *gorm.DB
 
 func connect() (err error) {
 	// localhost url
-	dsn := "user=toshiki-proxypool password=toshiki-proxypool dbname=toshiki-proxypool port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+	dsn := "user=proxypool password=proxypool dbname=proxypool port=5432 sslmode=disable TimeZone=Asia/Shanghai"
 	if url := config.Config.DatabaseUrl; url != "" {
 		dsn = url
 	}
