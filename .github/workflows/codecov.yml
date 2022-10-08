@@ -14,7 +14,7 @@ jobs:
           go-version: '1.18'
       - name: Get dependencies and run test
         run: |
-          go get 
+          go install 
           go test ./...
       - name: Run coverage
         run: go test ./... -race -coverprofile=coverage.txt -covermode=atomic
