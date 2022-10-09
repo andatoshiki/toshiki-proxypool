@@ -130,10 +130,27 @@ make
 
 ### use docker
 
-```sh
-docker pull docker.pkg.github.com/andatoshiki/toshiki-proxypool/proxypool:latest
 ```
+docker pull lukemin/toshiki-proxypool
+```
+download config.yaml and source.yaml to /path/to/config
 
+wget https://raw.githubusercontent.com/andatoshiki/toshiki-proxypool/master/config/config.yaml
+wget https://raw.githubusercontent.com/andatoshiki/toshiki-proxypool/master/config/source.yaml
+
+```
+docker run -d --restart=always \
+  --name=proxypool \
+  -p 8080:8080 \
+  -v /path/to/config:/toshiki-proxypool-src/config \
+  lukemin/toshiki-proxypool \
+  -c config/config.yaml
+```
+使用 -p 参数映射配置文件里的端口
+使用 -v 参数指定配置文件夹位置（配置文件要自行下载放到目录,方便修改）
+使用 -c 参数指定配置文件路径，支持http链接
+
+  
 ## 使用
 
 运行该程序需要具有访问完整互联网的能力。
