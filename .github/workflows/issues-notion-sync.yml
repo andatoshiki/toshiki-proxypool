@@ -2,6 +2,7 @@ name: Notion Sync
 
 on:
   workflow_dispatch:
+  push:
   issues:
     types:
       [
